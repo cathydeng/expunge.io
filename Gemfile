@@ -4,7 +4,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+#gem 'sqlite3'
+#for heroku, change sqlite to pg
+gem 'pg'
 
 # Use SCSS for stylesheets
 # commented rails girls tutorial gem 'sass-rails', '~> 4.0.0'
@@ -56,3 +58,11 @@ end
 gem 'less-rails'
 gem 'therubyracer'
 gem 'twitter-bootstrap-rails'
+
+
+#for heroku
+gem 'rails_12factor', group: :production
+
+
+#for heroku
+ruby "1.9.3"
