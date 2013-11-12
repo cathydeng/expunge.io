@@ -12,5 +12,7 @@
  *= require_tree .
  */
 
-*= require bootstrap
-*/
+
+/*
+ *= require bootstrap_and_overrides
+ */

@@ -2,6 +2,12 @@ Expungio::Application.routes.draw do
   resources :questions
   root :to => 'questions#index'
   
+
+  get '/about', to: 'questions#about'
+  get '/FAQ', to: 'questions#FAQ'
+  get '/link', to: 'questions#link'
+
+
   get '/q1', to: 'questions#q1'
   get '/q2', to: 'questions#q2'
   get '/q3', to: 'questions#q3'

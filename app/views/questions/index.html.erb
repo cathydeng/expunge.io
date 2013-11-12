@@ -1,5 +1,32 @@
-<h2>Expung.io</h2>
+<header role="banner">
+<nav class="navbar navbar-fixed-top bs-docs-nav" role="navigation">
 
-<h1>info info info info</h1>
+  <!-- Collect the nav links, forms, and other content for toggling -->
+    <ul class="nav navbar-nav">
+      <li><%= link_to "Home", :action => "index" %></li>
+      <li><%= link_to "About", :action => "about" %></li>
+      <li><%= link_to "FAQs", :action => "FAQ" %></li>
+      <li><%= link_to "Links", :action => "link" %></li>
+    </ul>
+    <div><br><div>
+</nav>
+</header>
+
+
+
+<body>
+<h3>What is expungement, anyways?</h3>
+<p id="q">Expungement is a process that legally erases a criminal record.</p>
+
+<h3>Why should I care?</h3>
+<p id="q">EMPLOYMENT! Expungement can help your chances of finding a job.</p>
+
+<h3>How do I expunge my juvenile criminal record?</h3>
+<p id="q">You will need to fill out a petition form and submit it to the appropriate court. Free(?) legal aid is available to help you navigate the process. But first, you need to find out if you are eligible to petition for expungement.</p>
   
-<%= link_to "Expunge me!", :action => "q1" %>
+<div style="padding:30px;">  
+<button class="btn btn-success btn-large" type="button"><%= link_to "I want to know if I am eligible for expungement in Illinois!", :action => "q1" %></button>
+</div>
+
+<p>*Note: This web app only applies to criminal records in Illinois. If you have a criminal record in another state, try looking up the expungement process in your state.</p>
+</body>

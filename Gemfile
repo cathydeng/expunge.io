@@ -7,13 +7,13 @@ gem 'rails', '4.0.0'
 gem 'sqlite3'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+# commented rails girls tutorial gem 'sass-rails', '~> 4.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+# commented rails girls tutorial 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -43,3 +43,16 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# rails girls tutorial - add the twitter-bootstrap-rails gem in the assets group
+group :assets do
+#  gem 'twitter-bootstrap-rails'
+#  gem 'sass-rails',   '~> 3.2.3'
+  gem 'sass-rails', '~>4.0.1'
+  gem 'coffee-rails', '~> 4.0.0'
+end
+
+# because bootstrap killed something?
+gem 'less-rails'
+gem 'therubyracer'
+gem 'twitter-bootstrap-rails'
