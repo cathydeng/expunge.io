@@ -5,7 +5,9 @@
 #   gem 'sqlite3'
 development:
   adapter: postgresql
-  database: db/development.sqlite3
+  #database: db/development.sqlite3
+  #for heroku
+  database: expunge.io_development
   pool: 5
   timeout: 5000
 
