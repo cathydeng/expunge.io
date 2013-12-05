@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Expungio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Expunge.io</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<header role="banner">
+  <nav class="navbar navbar-fixed-top bs-docs-nav" role="navigation">
+    <div class="container">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <ul class="nav navbar-nav">
+        <li><%= link_to "Home", :action => "index" %></li>
+        <li><%= link_to "About", :action => "about" %></li>
+        <li><%= link_to "FAQs", :action => "FAQ" %></li>
+        <li><%= link_to "Links", :action => "link" %></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
 
 <div class="container">
 <%= yield %>
