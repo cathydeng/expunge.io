@@ -2,10 +2,12 @@
 
 <h2>What class was the offense?</h2>
 
-<button class="btn btn-default"><%= link_to "Traffic offense", :action => "traffic" %></button>
-<button class="btn btn-default"><%= link_to "Felony", :action => "q5" %></button>
-<button class="btn btn-default"><%= link_to "Class A Misdemeanor", :action => "q5" %></button>
-<button class="btn btn-default"><%= link_to "Class C or D Misdemeanor", :action => "q4" %></button>
+
+
+<%= link_to("Traffic offense", traffic_path, :method => "get", :class => "btn btn-large")%>
+<%= link_to("Felony", q5_path, :method => "get", :class => "btn btn-large") %>
+<%= link_to("Class A Misdeneanor", q5_path, :method => "get", :class => "btn btn-large")%>
+<%= link_to("Class B or C Misdemeanor", q4_path, :method => "get", :class => "btn btn-large") %>
 
 
 </div>

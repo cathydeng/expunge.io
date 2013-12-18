@@ -2,7 +2,8 @@
 
 <h2>Did the arrest result in adjudication or conviction?</h2>
 
-<button class="btn btn-default btn-large"><%= link_to "No", :action => "q2" %></button>
-<button class="btn btn-default btn-large"><%= link_to "Yes", :action => "q3" %></button>
+
+<%= link_to("No", q2_path, :method => "get", :class => "btn btn-large")%>
+<%= link_to("Yes", q3_path, :method => "get", :class => "btn btn-large") %>
 
 </div>

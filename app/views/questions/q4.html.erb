@@ -2,7 +2,7 @@
 
 <h2>How old are you?</h2>
 
-<button class="btn btn-default btn-large"><%= link_to "17 & over", :action => "eligible2" %></button>
-<button class="btn btn-default btn-large"><%= link_to "under 17", :action => "notyet1" %></button>
 
+<%= link_to("18 & older", eligible2_path, :method => "get", :class => "btn btn-large")%>
+<%= link_to("under 18", notyet1_path, :method => "get", :class => "btn btn-large") %>
 </div>

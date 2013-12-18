@@ -2,7 +2,8 @@
 
 <h2>Do you have any adult convictions?</h2>
 
-<button class="btn btn-default btn-large"><%= link_to "No", :action => "q8" %></button>
-<button class="btn btn-default btn-large"><%= link_to "Yes", :action => "noteligible" %></button>
+
+<%= link_to("No", q8_path, :method => "get", :class => "btn btn-large")%>
+<%= link_to("Yes", noteligible_path, :method => "get", :class => "btn btn-large") %>
 
 </div>
