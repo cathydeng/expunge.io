@@ -14,9 +14,10 @@
 <div style="padding:30px;">  
 
 
-<button class="btn btn-large" type="button"><%= link_to "I want to know if I am eligible to petition for expungement in Illinois!", :action => "q1" %></button>
+<button class="btn btn-large" type="button"> I want to know if I am eligible to petition for expungement in Illinois!</button>
 
-<%= link_to "I want to know if I am eligible to petition for expungement in Illinois!", :action => "q1", :class=>"btn btn-large" %>
+<%= button_to("I want to know if I am eligible to petition for expungement in Illinois!", q2_path, :method => "get") %>
+
 
 <!-- -->
 
