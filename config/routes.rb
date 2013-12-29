@@ -10,6 +10,8 @@ Expungio::Application.routes.draw do
 
 #this maps urls to static pages
 
+
+  get '/disclaimer', to: 'questions#disclaimer'
   get '/q1', to: 'questions#q1'
   get '/q2', to: 'questions#q2'
   get '/q3', to: 'questions#q3'
