@@ -18,6 +18,12 @@ head{margin-bottom: 60px;}
 	font-size: 18px;
 }
 
+// the salmon color was D97A55
 .topbar{
-	background: #D97A55;
+	background: #48BDAD;
+}
+
+.topbar .nav > li > a{
+	text-shadow: none;
+	color: #EBE6DA;
 }
