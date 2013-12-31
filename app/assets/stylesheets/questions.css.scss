@@ -33,3 +33,13 @@ head{margin-bottom: 60px;}
 	color: #EBE6DA;
 }
 
+.box{
+	background-color: #EDF5F7;
+	margin: 1em 0em 0em 0em;
+	padding: .5em 1em 1em 1em;
+	border-radius: 1em;
+}
+
+.box > ul {
+	font-size: .9em;
+}
