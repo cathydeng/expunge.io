@@ -4,16 +4,17 @@
 * Rails 4.0.0 
 
 
-### What is this?
+###What is this?
 
-This is a web app that helps youth with a juvenile record:
+This is a web app that helps folks with a juvenile record:
 1. determine if they are eligible to petition for expungement
 2. get in contact with a lawyer for assistance, if they are eligible
 
-### What's the point?
+###What's the point?
 
-Young people with a criminal record face difficulties in finding employment. While these criminal records can be expunged, many aren't aware of this possibility or of the processes involved. This app simplifies the process of deterning eligibility & securing legal aid, with the hope of facilitating positive transitions into the community & reducing the rate of recidivism.
+A juvenile record makes it difficult to get a job. The good news is that juvenile records don't have to be permanent, as they can be expunged. However, only a small proportion of those who qualify for expungement end up petitioning. This app aims to be an easy-to-share landing page to de-mystify expungement, with the hope of getting more folks to kick off the expungement process! 
 
-### Why did you do that clumsy thing in your code, instead of doing this-other-thing-that-is-much-simpler?
 
-I don't know - I'm new to web development & have much to learn. Please, please send me suggestions for improvement!
+
+
+The idea for this app came from the awesome Juvenile Justice Council of the Mikva Challenge
