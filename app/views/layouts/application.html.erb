@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Expunge.io</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-
-
 <body>
+  <div class="wrapper">
+    <header role="banner">
+      <nav class="navbar navbar-fixed-top bs-docs-nav topbar" role="navigation">
+        <div class="container topbar">
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <a class="brand" href="/">Expunge.io</a>
+          <ul class="nav navbar-nav pull-right">
+            <li><%= link_to "Home", :action => "index" %></li>
+            <li><%= link_to "About", :action => "about" %></li>
+            <li><%= link_to "FAQs", :action => "FAQ" %></li>
+            <li><%= link_to "LEGAL AID!", :action => "legalaid" %></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-<header role="banner" style="padding-bottom:20px">
-  <nav class="navbar navbar-fixed-top bs-docs-nav topbar" role="navigation">
-    <div class="container topbar">
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <ul class="nav navbar-nav">
-        <li><%= link_to "Home", :action => "index" %></li>
-        <li><%= link_to "About", :action => "about" %></li>
-        <li><%= link_to "FAQs", :action => "FAQ" %></li>
-        <li><%= link_to "LEGAL AID!", :action => "legalaid" %></li>
-      </ul>
+    <div id="content" class="container">
+      <%= yield %>
     </div>
-  </nav>
-</header>
 
+    <div class="push"></div>
+  </div>
 
-
-<div class="container">
-<%= yield %>
-</div>
-
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          Created by <a href="http://twitter.com/cthydng" target="_blank">Cathy Deng</a> - please don't hesitate to provide feedback!
+        </div>
+        <div class="span6 text-right">
+          Hosted by <a href="http://www.smartchicagocollaborative.org/">Smart Chicago</a> | 
+          Source code on <a href="https://github.com/cathydeng/expunge.io" target="_blank">GitHub</a>
+        </div>  
+      </div>    
+    </div>
+  </footer>
+    
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 </body>
-
 </html>

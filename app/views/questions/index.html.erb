@@ -1,23 +1,18 @@
-
-
-
-<br>
-<h3>What is expungement, anyways?</h3>
-<p id="q">Expungement is a process that legally erases a criminal record.</p><br>
-
-<h3>Why should I care?</h3>
-<p id="q">EMPLOYMENT! Expungement can help your chances of finding a job.</p><br>
-
-  
-<div style="padding:30px;">  
-
-
-
-<%= link_to("I want to know if I'm eligible for expungement in Illinois", disclaimer_path, :method => "get", :class => "btn btn-large") %>
-
-
-<!-- -->
+<div class="page-header">
+  <h1>Welcome to Expunge.io</h1>
 </div>
 
-<p style="font-size: .8em;">
-	Note: This web app only applies to juvenile records in Illinois. If you have a juvenile record in another state, try looking up the expungement process in your state.</p>
+<div class="question">
+  <h3>What is expungement, anyways?</h3>
+  <p>Expungement is a process that legally erases a criminal record.</p>
+</div>
+
+<div class="question">
+  <h3>Why should I care?</h3>
+  <p>EMPLOYMENT! Expungement can help your chances of finding a job.</p>
+</div>
+
+<p class="eligibility"><%= link_to("I want to know if I'm eligible for expungement in Illinois", disclaimer_path, :method => "get", :class => "btn btn-large") %></p>
+
+<small>
+	Note: This web app only applies to juvenile records in Illinois. If you have a juvenile record in another state, try looking up the expungement process in your state.</small>
