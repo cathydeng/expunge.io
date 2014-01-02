@@ -1,0 +1,127 @@
+/*
+ *= require bootstrap_and_overrides
+ *= require_tree .
+ *= require_self
+ */
+
+/* General */
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #DAEDE5; 
+
+  @media screen and (max-width: 480px) {
+    text-align: center;
+
+    h2, h3 {
+      line-height: 1.2em;
+    }
+  }
+}
+
+a {
+  color: #2f756b;
+  border-bottom: 1px dotted #2f756b;
+
+  &:hover {
+    color: #333;
+    border-bottom: 1px solid #333;
+    text-decoration: none;
+  }
+}
+
+p {
+  margin: 0 0 20px 0;
+}
+
+hr {
+  border-color: #333;
+}
+
+/* Layout */
+#content {
+  padding-top: 60px;
+
+  @media screen and (max-width: 979px) {
+    padding-top: 0;
+  }
+}
+
+
+.well{
+  background-color: #EDF5F7;
+}
+
+/* Sticky footer */
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -41px; /* the bottom margin is the negative value of the footer's height */
+}
+
+footer,
+.push {
+  height: 41px; /* .push must be the same height as .footer */
+}
+
+/* Header */
+.topbar{
+  // the salmon color was D97A55
+  background: #48BDAD;
+
+  @media screen and (max-width: 979px) {
+    padding: 0 20px;
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .brand {
+      float: none;
+      display: inline-block;
+    }
+  }
+
+  .nav > li > a{
+    text-shadow: none;
+    color: white;
+    border: none;
+
+    @media screen and (max-width: 480px) {
+      padding: 0 10px 10px;
+    }
+  }
+
+  .brand {
+    padding: 0;
+    width: 137px;
+    height: 41px;
+    margin: 0 20px 0 0;
+    text-indent: -999999px;
+    background: url(logo.png) 0 0 no-repeat;
+    border: none;
+  }
+}
+
+/* Content */
+.page-header {
+  border-color: #333;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #2f756b;
+
+  @media screen and (max-width: 979px) {
+    &,
+    .text-right {
+      text-align: left;
+    }    
+  }
+
+  .row {
+    padding: 10px 0;
+  }
+}

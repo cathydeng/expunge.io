@@ -2,44 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
-background: #DAEDE5; 
+.question {
+	margin-bottom: 20px;
 
+	h3 {
+		margin-bottom: 0;
+	}
 }
 
-
-head{margin-bottom: 60px;}
-
-.center{
-	text-align:center;
-}
-
-#q{
-	font-size: 18px;
+.eligibility {
+	margin: 40px 0;
 }
 
 #FAQq{
 	color: #E38809;
 	font-weight: bold;
-}
-
-// the salmon color was D97A55
-.topbar{
-	background: #48BDAD;
-}
-
-.topbar .nav > li > a{
-	text-shadow: none;
-	color: #EBE6DA;
-}
-
-.box{
-	background-color: #EDF5F7;
-	margin: 1em 0em 0em 0em;
-	padding: .5em 1em 1em 1em;
-	border-radius: 1em;
-}
-
-.box > ul {
-	font-size: .9em;
 }
