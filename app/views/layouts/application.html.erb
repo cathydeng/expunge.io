@@ -33,10 +33,12 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="span6">
+        <div class="span8">
           Created by <a href="http://twitter.com/cthydng" target="_blank">Cathy Deng</a> - please don't hesitate to provide feedback!
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://expunge.io" data-text="Expunge.io is a web app created for people with juvenile records.">Tweet</a>
+          <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fexpunge.io&amp;width=50px&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
         </div>
-        <div class="span6 text-right">
+        <div class="span4 text-right">
           Hosted by <a href="http://www.smartchicagocollaborative.org/">Smart Chicago</a> | 
           Source code on <a href="https://github.com/cathydeng/expunge.io" target="_blank">GitHub</a>
         </div>  
@@ -45,5 +47,6 @@
   </footer>
     
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </body>
 </html>
