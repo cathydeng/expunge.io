@@ -12,6 +12,9 @@ Expungio::Application.routes.draw do
 
 
   get '/disclaimer', to: 'questions#disclaimer'
+  get '/notsure', to: 'questions#notsure'
+
+
   get '/q1', to: 'questions#q1'
   get '/q2', to: 'questions#q2'
   get '/q3', to: 'questions#q3'
@@ -21,6 +24,13 @@ Expungio::Application.routes.draw do
   get '/q7', to: 'questions#q7'
   get '/q8', to: 'questions#q8'
   get '/q9', to: 'questions#q9'
+
+  get '/qa', to: 'questions#qa'
+  get '/qb', to: 'questions#qb'
+  get '/qc', to: 'questions#qc'
+  get '/qd', to: 'questions#qd'
+  get '/qe', to: 'questions#qe'
+  get '/qf', to: 'questions#qf'
   
   get '/eligible1', to: 'questions#eligible1'
   get '/eligible2', to: 'questions#eligible2'
@@ -31,7 +41,11 @@ Expungio::Application.routes.draw do
   get '/notyet1', to: 'questions#notyet1'
   get '/notyet2', to: 'questions#notyet2'
   get '/notyet3', to: 'questions#notyet3'
+  get '/notyet4', to: 'questions#notyet4'
   
+  get '/complicated', to: 'questions#complicated'
+
+
   get '/traffic', to: 'questions#traffic'
 
   # The priority is based upon order of creation: first created -> highest priority.
