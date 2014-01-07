@@ -10,6 +10,7 @@ html, body {
   height: 100%;
 }
 
+/*light teal was #DAEDE5, light blue #B6E3E3 */
 body {
   background: #DAEDE5; 
 
@@ -20,6 +21,7 @@ body {
     }
   }
 }
+
 
 a {
   color: #2f756b;
@@ -59,12 +61,12 @@ hr {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -61px; /* the bottom margin is the negative value of the footer's height */
+  margin: 0 auto -77px; /* the bottom margin is the negative value of the footer's height */
 }
 
 footer,
 .push {
-  height: 61px; /* .push must be the same height as .footer */
+  height: 77px; /* .push must be the same height as .footer */
 }
 
 /* Header */
@@ -113,7 +115,7 @@ footer,
 /* Footer */
 footer {
   border-top: 1px solid #2f756b;
-  height: 60px;
+  height: 76px;
 
   @media screen and (max-width: 979px) {
     &,
