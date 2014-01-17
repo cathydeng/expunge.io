@@ -41,6 +41,16 @@ a {
 }
 
 @font-face {
+  font-family: Pacifico;
+  src: url(/assets/fonts/Pacifico.ttf);
+}
+
+@font-face {
+  font-family: 'Lobster_1.3';
+  src: url(/assets/fonts/Lobster_1.3.otf);
+}
+
+@font-face {
   font-family: Aaargh;
   src: url(/assets/fonts/Aaargh.ttf);
 }
@@ -76,7 +86,7 @@ a {
 
 
 body {
-  font-family: Overlock-Regular, sans-serif;
+  font-family: sans-serif;
 }
 
 
@@ -158,6 +168,7 @@ footer,
 /* Content */
 .page-header {
   border-color: #333;
+  font-family: Pacifico;
 }
 
 /* Footer */
