@@ -23,6 +23,7 @@ body {
 }
 
 
+
 a {
   color: #2f756b;
   border-bottom: 1px dotted #2f756b;
@@ -33,6 +34,46 @@ a {
     text-decoration: none;
   }
 }
+
+@font-face {
+  font-family: SourceSansPro-Regular;
+  src: url(/assets/fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+  font-family: Aaargh;
+  src: url(/assets/fonts/Aaargh.ttf);
+}
+
+@font-face {
+  font-family: Panefresco1wtRegular;
+  src: url(/assets/fonts/Panefresco1wtRegular.ttf);
+}
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: url(/assets/fonts/Raleway-Regular.otf);
+}
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('/assets/fonts/OpenSans-Regular-webfont.eot');
+    src: url('/assets/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('/assets/fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('/assets/fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-family: Raleway-Regular, sans-serif;
+}
+
+
+
 
 p {
   margin: 0 0 20px 0;
