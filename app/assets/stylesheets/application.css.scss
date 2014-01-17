@@ -46,14 +46,12 @@ a {
 }
 
 @font-face {
-  font-family: Panefresco1wtRegular;
-  src: url(/assets/fonts/Panefresco1wtRegular.ttf);
+  font-family: Overlock-Regular;
+  src: url(/assets/fonts/Overlock-Regular.ttf);
 }
 
-
-
 @font-face {
-    font-family: 'open_sansregular';
+    font-family: 'OpenSans-Regular';
     src: url('/assets/fonts/OpenSans-Regular-webfont.eot');
     src: url('/assets/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('/assets/fonts/OpenSans-Regular-webfont.woff') format('woff'),
@@ -77,9 +75,8 @@ a {
 }
 
 
-
 body {
-  font-family: raleway-regular, sans-serif;
+  font-family: Overlock-Regular;
 }
 
 
