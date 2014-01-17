@@ -50,10 +50,6 @@ a {
   src: url(/assets/fonts/Panefresco1wtRegular.ttf);
 }
 
-@font-face {
-  font-family: Raleway-Regular;
-  src: url(/assets/fonts/Raleway-Regular.otf);
-}
 
 
 @font-face {
@@ -68,8 +64,22 @@ a {
 
 }
 
+@font-face {
+    font-family: 'raleway-regular';
+    src: url('/assets/fonts/raleway-regular-webfont.eot');
+    src: url('/assets/fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/raleway-regular-webfont.woff') format('woff'),
+         url('/assets/fonts/raleway-regular-webfont.ttf') format('truetype'),
+         url('/assets/fonts/raleway-regular-webfont.svg#raleway-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 body {
-  font-family: Raleway-Regular, sans-serif;
+  font-family: raleway-regular, sans-serif;
 }
 
 
