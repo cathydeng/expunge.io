@@ -100,12 +100,12 @@ hr {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -77px; /* the bottom margin is the negative value of the footer's height */
+  margin: 0 auto -61px; /* the bottom margin is the negative value of the footer's height */
 }
 
 footer,
 .push {
-  height: 77px; /* .push must be the same height as .footer */
+  height: 61px; /* .push must be the same height as .footer */
 }
 
 /* Header */
@@ -154,7 +154,7 @@ footer,
 /* Footer */
 footer {
   border-top: 1px solid #2f756b;
-  height: 76px;
+  height: 60px;
 
   @media screen and (max-width: 979px) {
     &,
