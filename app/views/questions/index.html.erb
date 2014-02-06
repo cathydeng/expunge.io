@@ -2,24 +2,40 @@
   <h1>Welcome to Expunge.io for Illinois</h1>
 </div> 
 
-<div class="question">
-  <h3>So, what's juvenile expungement?</h3>
-  <p>Juvenile expungement is a process that erases an arrest and/or court record.</p>
+<div class="row" id="big-text">
+  <div class="span9">
+    <p><br>Every year, <i>thousands</i> of youth in IL are arrested before they turn 18. Were you one of them?</p>
+  </div>
+  <div class="span3">
+    <%= image_tag 'copcar.png' %>
+  </div>
 </div>
 
-<div class="question">
-  <h3>What is on a juvenile record?</h3>
-  <ol>
-  	<li>ALL arrests (even if you were never charged) before you turn 17</li>
-  	<li>Almost all arrests before you turn 18</li>
-  	<li>Juvenile court cases before you turn 18</li>
-  </ol>
+<div>
+  <br>
+  <h2>If so, then you have a juvenile record.</h2>
 </div>
 
-<div class="question">
-  <h3>How can juvenile expungement help me?</h3>
-  <p>Expungement can make it easier to get a job! Expungement can also remove barriers to school admission, housing, professional licenses and military service.</p>
+<div class="row" id="medium-text">
+  <br>
+  <div class="span2">
+    <%= image_tag '26a0.png' %>
+  </div>
+  <div class="span10">
+    <p>Even if nothing happened after your arrest, the record is still there, and it will not go away on its own. Unfortunately, a juvenile record can hold you back for years to come.</p>
+  </div>
 </div>
+
+<div id="big-text">
+<p><br>But, there's good news: you may be able to erase your juvenile record through a process called juvenile expungement.</p>
+</div>
+
+<div id="medium-text">
+ <p><br>Juvenile expungement can remove barriers to employment, education, and housing. Most juvenile records can be expunged, and not enough people take advantage of the opportunity!</p>
+ <p><br>Expunge.io can help you figure out if you are able to erase your juvenile record.</p>
+</div>
+
+
 
 <p class="eligibility"><%= link_to("I have a juvenile arrest or court record in Illinois, and I want to know if I can expunge it", disclaimer_path, :method => "get", :class => "btn btn-large") %></p>
 

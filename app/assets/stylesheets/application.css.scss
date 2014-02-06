@@ -35,6 +35,16 @@ a {
   }
 }
 
+#big-text{
+  font-size:2.0em;
+  line-height:1.2em;
+}
+
+#medium-text{
+  font-size:1.6em;
+  line-height:1.2em;
+}
+
 @font-face {
   font-family: SourceSansPro-Regular;
   src: url(/assets/fonts/SourceSansPro-Regular.otf);
