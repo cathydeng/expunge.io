@@ -49,6 +49,10 @@ group :assets do
   gem 'coffee-rails', '~> 4.0.0'
 end
 
+group :production do
+  gem 'heroku_rails_deflate'
+end
+
 # because bootstrap killed something?
 gem 'less-rails'
 gem 'therubyracer'
