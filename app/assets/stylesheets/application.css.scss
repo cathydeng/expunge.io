@@ -10,9 +10,9 @@ html, body {
   height: 100%;
 }
 
-/*light teal was #DAEDE5, light blue #B6E3E3 */
-body {
-  background: #DAEDE5; 
+/*light teal was #DAEDE5, light blue #B6E3E3, lighter blue azure */
+body, light teal was A4DBC8  {
+  background: #A4DBC2; 
 
   @media screen and (max-width: 480px) {
 
@@ -67,7 +67,8 @@ a {
 
 
 body {
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
+  -webkit-text-stroke: 0.1px;
 }
 
 
