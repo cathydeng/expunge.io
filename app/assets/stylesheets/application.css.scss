@@ -11,8 +11,10 @@ html, body {
 }
 
 /*light teal was #DAEDE5, light blue #B6E3E3, lighter blue azure */
-body, light teal was A4DBC8  {
-  background: #A4DBC2; 
+body {
+  background: #A4DBC2;
+  font-family: 'Raleway', sans-serif;
+  -webkit-text-stroke: 0.1px;
 
   @media screen and (max-width: 480px) {
 
@@ -49,45 +51,6 @@ a {
   font-size:2.0em;
   line-height:1.2em;
 }
-
-@font-face {
-  font-family: SourceSansPro-Regular;
-  src: url(/assets/fonts/SourceSansPro-Regular.otf);
-}
-
-
-@font-face {
-    font-family: 'OpenSans-Regular';
-    src: url('/assets/fonts/OpenSans-Regular-webfont.eot');
-    src: url('/assets/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/OpenSans-Regular-webfont.woff') format('woff'),
-         url('/assets/fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('/assets/fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'raleway-regular';
-    src: url('/assets/fonts/raleway-regular-webfont.eot');
-    src: url('/assets/fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/raleway-regular-webfont.woff') format('woff'),
-         url('/assets/fonts/raleway-regular-webfont.ttf') format('truetype'),
-         url('/assets/fonts/raleway-regular-webfont.svg#raleway-regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-body {
-  font-family: 'Raleway', sans-serif;
-  -webkit-text-stroke: 0.1px;
-}
-
-
-
 
 p {
   margin: 0 0 20px 0;
