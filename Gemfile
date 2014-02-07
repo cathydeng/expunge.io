@@ -7,7 +7,7 @@ ruby "1.9.3"
 gem 'rails', '4.0.2'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+# gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
@@ -34,12 +34,6 @@ group :production do
   gem 'rails_12factor'
   gem 'heroku_rails_deflate'
 end
-
-# because bootstrap killed something?
-gem 'less-rails'
-gem 'therubyracer'
-gem 'twitter-bootstrap-rails'
-
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
