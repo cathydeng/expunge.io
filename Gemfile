@@ -20,6 +20,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# Automatically add image sizes
+gem 'dimensions-rails'
+
 # Assets
 gem 'sass-rails', '~>4.0.0'
 gem 'coffee-rails', '~> 4.0.0'
