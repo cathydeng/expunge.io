@@ -10,9 +10,9 @@ html, body {
   height: 100%;
 }
 
-/*light teal was #DAEDE5, light blue #B6E3E3 */
-body {
-  background: #DAEDE5; 
+/*light teal was #DAEDE5, light blue #B6E3E3, lighter blue azure */
+body, light teal was A4DBC8  {
+  background: #A4DBC2; 
 
   @media screen and (max-width: 480px) {
 
@@ -21,6 +21,7 @@ body {
     }
   }
 }
+
 
 
 a {
@@ -33,6 +34,60 @@ a {
     text-decoration: none;
   }
 }
+
+#big-text{
+  font-size:2.0em;
+  line-height:1.2em;
+}
+
+#medium-text{
+  font-size:1.4em;
+  line-height:1.2em;
+}
+
+.btn{
+  font-size:2.0em;
+  line-height:1.2em;
+}
+
+@font-face {
+  font-family: SourceSansPro-Regular;
+  src: url(/assets/fonts/SourceSansPro-Regular.otf);
+}
+
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('/assets/fonts/OpenSans-Regular-webfont.eot');
+    src: url('/assets/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('/assets/fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('/assets/fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'raleway-regular';
+    src: url('/assets/fonts/raleway-regular-webfont.eot');
+    src: url('/assets/fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/raleway-regular-webfont.woff') format('woff'),
+         url('/assets/fonts/raleway-regular-webfont.ttf') format('truetype'),
+         url('/assets/fonts/raleway-regular-webfont.svg#raleway-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+  -webkit-text-stroke: 0.1px;
+}
+
+
+
 
 p {
   margin: 0 0 20px 0;
@@ -61,12 +116,12 @@ hr {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -77px; /* the bottom margin is the negative value of the footer's height */
+  margin: 0 auto -61px; /* the bottom margin is the negative value of the footer's height */
 }
 
 footer,
 .push {
-  height: 77px; /* .push must be the same height as .footer */
+  height: 61px; /* .push must be the same height as .footer */
 }
 
 /* Header */
@@ -115,7 +170,7 @@ footer,
 /* Footer */
 footer {
   border-top: 1px solid #2f756b;
-  height: 76px;
+  height: 60px;
 
   @media screen and (max-width: 979px) {
     &,
