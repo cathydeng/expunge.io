@@ -1,22 +1,13 @@
 source 'https://rubygems.org'
 
+#for heroku
+ruby "1.9.3"
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
-
-# Use SCSS for stylesheets
-# commented rails girls tutorial gem 'sass-rails', '~> 4.0.0'
-
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
-
-# Use CoffeeScript for .js.coffee assets and views
-# commented rails girls tutorial 'coffee-rails', '~> 4.0.0'
-
-# See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'rails', '4.0.2'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+# gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
@@ -27,6 +18,21 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+# Automatically add image sizes
+gem 'dimensions-rails'
+
+# Assets
+gem 'sass-rails', '~>4.0.0'
+gem 'coffee-rails', '~> 4.0.0'
+gem 'uglifier', '>= 1.3.0'
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+# gem 'therubyracer', platforms: :ruby
+
+group :production do
+  gem 'rails_12factor'
+  gem 'heroku_rails_deflate'
 end
 
 # Use ActiveModel has_secure_password
@@ -40,24 +46,3 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
-# rails girls tutorial - add the twitter-bootstrap-rails gem in the assets group
-group :assets do
-#  gem 'twitter-bootstrap-rails'
-#  gem 'sass-rails',   '~> 3.2.3'
-  gem 'sass-rails', '~>4.0.1'
-  gem 'coffee-rails', '~> 4.0.0'
-end
-
-# because bootstrap killed something?
-gem 'less-rails'
-gem 'therubyracer'
-gem 'twitter-bootstrap-rails'
-
-
-#for heroku
-gem 'rails_12factor', group: :production
-
-
-#for heroku
-ruby "1.9.3"
