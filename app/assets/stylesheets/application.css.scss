@@ -151,3 +151,51 @@ footer {
     &.twitter-share-button { margin-left: 15px; }
   }
 }
+
+
+
+/* custom */
+
+.topbar {
+	background: none repeat scroll 0% 0% rgba(225, 230, 229, 1);	
+}
+
+.topbar .nav > li > a {
+	text-shadow: none;
+	color: #5C605F;
+	border: medium none;	
+}
+
+body {
+	background: #98CCAD;
+	font-family: 'Raleway', sans-serif;
+	-webkit-text-stroke: 0.1px; 
+}
+
+#content {
+	padding-top: 45px; 
+}
+
+#big-text {
+	font-size: 1.5em;
+	line-height: 1.2em;	
+}
+
+#medium-text {
+	font-size: 1.3em;
+	line-height: 1.1em; 
+}
+
+.btn:hover, .btn:focus {
+				color: #333;
+				text-decoration: none;
+				background-position: 0px -15px;
+				transition: background-position 0.1s linear 0s;
+				box-shadow: 0 0 16px darkgreen;				
+			}
+
+footer {
+	border-top: 1px solid #2F756B;
+	height: 60px;
+	background-color: #D9CECE;	
+}
