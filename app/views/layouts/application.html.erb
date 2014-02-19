@@ -31,6 +31,12 @@
             <li><%= link_to "About", :action => "about" %></li>
             <li><%= link_to "FAQs", :action => "FAQ" %></li>
             <li><%= link_to "LEGAL AID!", :action => "legalaid" %></li>
+            <li>
+              <div class="btn-group">
+                <btn class="button"><%= link_to_unless I18n.locale == :en, "English", set_language_english_path, :class => "btn btn-default" %></btn>
+                <btn class="button"><%= link_to_unless I18n.locale == :es, "Espanol", set_language_spanish_path, :class => "btn btn-default" %></btn>
+                </div>
+              </li>
           </ul>
         </div>
       </nav>
