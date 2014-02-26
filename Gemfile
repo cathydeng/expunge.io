@@ -32,6 +32,12 @@ gem 'sprockets', '~>2.10.1'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+# Translation rails dev tools
+group :development do
+  gem 'missing_t'
+  gem 'i15r'
+end
+
 group :production do
   gem 'rails_12factor'
   gem 'heroku_rails_deflate'
