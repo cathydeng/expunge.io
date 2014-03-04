@@ -29,6 +29,17 @@ es:
         arrest_without_court: Un arresto sin ir a corte
         arrest_with_case: Un arresto que resultó en un caso de corte
         court_no_arrest: Un caso de corte sin arresto
-  
+
+    q2:
+      how_old_are_you: ¿Qué edad tienes?
+      18_and_older: 18 o mayor
+      under_18: menos de 18
+      
+    eligible1:
+      you_are_eligible_to_apply_for_juvenile_expungement_in_illinois_under_subsection_1: Eres elegible para solicitar borrar los antecedentes juveniles en Illinois según subdivision 1
+      after_you_submit_this_form_a_lawyer_from_laf_chicago_will_contact_you_as_soon_as_they_can_they_will_look_into_your_record_to_confirm_that_you_are_eligible_for_expungement_and_then_they_will_guide_you_through_the_rest_of_the_petitioning_process: Despues que envies este formulario un abogado se va poner en contacto los mas pronto posible.  Van a ver tus antecedentes para determinar si eres elegible para expungement y te van a guiar por el processo!
+        
+
+      
       
         
