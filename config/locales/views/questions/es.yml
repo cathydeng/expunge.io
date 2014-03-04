@@ -21,6 +21,10 @@ es:
       after_you_go_through_all_the_questions_to_double_check_your_eligibility: despues de leer las preguntas, revise otravez su eligibilidad
       to_speak_with_a_lawyer_just_click_legal_aid_at_the_top_of_the_page: Para hablar con un abogado, haz clic en LEGAL AID en la parte más alta de la página.
       button: Sí, yo entiendo. Empezamos!
+
+    qa:
+      what_type_of_juvenile_record_are_you_hoping_to_expunge: Que tipo de expendiente juvenil estas intentando a borrar?
+      note_the_expungement_process_is_per_case_-_if_you_have_multiple_arrests_or_court_cases_each_case_must_be_considered_separately: Note que el proceso de borrar los antecedentes juveniles es caso por caso - si tienes arrestos múltiples o casos de corte, cada caso tiene que ser considerado separados.
   
       
         
