@@ -4,23 +4,33 @@ es:
   layouts:
     application:
       expungeio: Expunge.io
-      home: Pagina Principal
+      home: Pagina de Inicio
       about: About
       faqs: FAQs
       legal_aid: LEGAL AID!
-      english: Ingles
+      english: English
       español: Español
       cathy_deng: Cathy Deng
-      the_mikva_juvenile_justice_council: el Mikva Juvenile Justice Council
+      the_mikva_juvenile_justice_council: the Mikva Juvenile Justice Council
 
   questions:
+    index:
+      welcome_to_expungeio_for_illinois: Bienvenido a Expunge.io para Illinois
+      every_year: Cada año
+      thousands: miles
+      of_youth_in_IL_are_arrested_before_they_turn_18_were_you_one_of_them: de jovenes en Illinois fueron arrestados antes de cumplir los 18 años.  Fuistes unos de ellos
+      if_so_then_you_have_a_juvenile_record: Si esto es tu caso, tienes un expediente juvenil.
+      even_if_nothing_happened_after_your_arrest_the_record_is_still_there_and_it_will_not_go_away_on_its_own_unfortunately_a_juvenile_record_can_hold_you_back_for_years_to_come: Aunque nada occurrio despues de tu arresto, tu expediante sigue alli y no se va desapparecer y desafortunadamente, puede perjudicarte por años.
+      but_theres_good_news_most_juvenile_records_can_be_erased_through_a_process_called_juvenile_expungement: Pero aye buenas noticias! La mayoria de antecedentes juveniles pueden ser borrados por un processo llamado juvenile expungement.
+      index_button: Si tienes antecedentes juveniles, haz clic aqui para ver si lo puedes a borrar!
+      
     disclaimer:
       disclaimer: "RENUNCIA"
       helpful_text: Este applicación-web pretende a 
       if_you_are_uncertain_about_how_to_answer_any_of_the_following_questions: si estás inseguro de como responder a cualquier pregunta
       after_you_go_through_all_the_questions_to_double_check_your_eligibility: despues de leer las preguntas, revise otravez su eligibilidad
       to_speak_with_a_lawyer_just_click_legal_aid_at_the_top_of_the_page: para hablar con un abogado, haz clic en legal aid en la parte más alta de la página
-      button: Sú, yo entiendo. Empezamos!
+      button: Sí, yo entiendo. Empezamos!
   
       
         

@@ -1,0 +1,39 @@
+<div class="page-header">
+  <h1><%= I18n.t("questions.index.welcome_to_expungeio_for_illinois", :default => "Welcome to Expunge.io for Illinois") %></h1>
+</div>
+
+<div class="row" id="big-text">
+  <div class="span9">
+    <p><br><%= I18n.t("questions.index.every_year", :default =>"Every year") %>, <i><%= I18n.t("questions.index.thousands", :default => "thousands") %></i> <%= I18n.t("questions.index.of_youth_in_IL_are_arrested_before_they_turn_18_were_you_one_of_them", :default => "of youth in IL are arrested before they turn 18. Were you one of them") %>?</p>
+  </div>
+
+  <div class="span3">
+    <%= image_tag 'cop.png' %>
+  </div>
+
+
+
+</div>
+
+<div>
+  <h2><%= I18n.t("questions.index.if_so_then_you_have_a_juvenile_record", :default => "If so, then you have a juvenile record.") %></h2>
+</div>
+
+
+<div class="row" id="medium-text">
+  <br>
+  <div class="span2">
+    <%= image_tag 'caution_icon.png' %>
+  </div>
+  <div class="span8">
+    <p><%= I18n.t("questions.index.even_if_nothing_happened_after_your_arrest_the_record_is_still_there_and_it_will_not_go_away_on_its_own_unfortunately_a_juvenile_record_can_hold_you_back_for_years_to_come", :default => "Even if nothing happened after your arrest, the record is still there, and it will not go away on its own. Unfortunately, a juvenile record can hold you back for years to come.") %></p>
+  </div>
+</div>
+
+<div id="big-text">
+  <p><br><%= I18n.t("questions.index.but_theres_good_news_most_juvenile_records_can_be_erased_through_a_process_called_juvenile_expungement", :default => "But, there's good news: Most juvenile records can be erased through a process called juvenile expungement!") %></p>
+</div>
+
+
+<p class="eligibility"><%= link_to(I18n.t("questions.index.index_button", :default => "If you have a juvenile record in Illinois, click here to check if you can erase it!"), disclaimer_path, :method => "get", :class => "btn btn-large") %></p>
+<br>
