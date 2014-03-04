@@ -1,11 +1,11 @@
 <div class="center">
 
-<h2><%= I18n.t("questions.qa.what_type_of_juvenile_record_are_you_hoping_to_expunge", :default => "What type of juvenile record are you hoping to expunge?") %></h2>
-<p><%= I18n.t("questions.qa.note_the_expungement_process_is_per_case_-_if_you_have_multiple_arrests_or_court_cases_each_case_must_be_considered_separately", :default => "Note: the expungement process is per case - if you have multiple arrests or court cases, each case must be considered separately.") %></p>
+  <h2><%= I18n.t("questions.qa.what_type_of_juvenile_record_are_you_hoping_to_expunge", :default => "What type of juvenile record are you hoping to expunge?") %></h2>
+  <p><%= I18n.t("questions.qa.note_the_expungement_process_is_per_case_-_if_you_have_multiple_arrests_or_court_cases_each_case_must_be_considered_separately", :default => "Note: the expungement process is per case - if you have multiple arrests or court cases, each case must be considered separately.") %></p>
 
 
-<%= link_to("An arrest without going to court", q2_path, :method => "get", :class => "btn btn-large")%>
-<%= link_to("An arrest resulting in a court case", qb_path, :method => "get", :class => "btn btn-large") %>
-<%= link_to("A court case with no arrest", qc_path, :method => "get", :class => "btn btn-large") %>
+  <%= link_to(I18n.t("questions.qa.button.arrest_without_court", :default => "An arrest without going to court"), q2_path, :method => "get", :class => "btn btn-large")%>
+  <%= link_to(I18n.t("questions.qa.button.arrest_with_case", :default => "An arrest resulting in a court case"), qb_path, :method => "get", :class => "btn btn-large") %>
+  <%= link_to(I18n.t("questions.qa.button.court_no_arrest", :default => "A court case with no arrest"), qc_path, :method => "get", :class => "btn btn-large") %>
 
 </div>
