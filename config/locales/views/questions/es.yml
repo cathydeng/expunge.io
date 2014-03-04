@@ -1,18 +1,6 @@
 # ruby encoding: utf-8
 
 es:
-  layouts:
-    application:
-      expungeio: Expunge.io
-      home: Pagina de Inicio
-      about: About
-      faqs: FAQs
-      legal_aid: LEGAL AID!
-      english: English
-      español: Español
-      cathy_deng: Cathy Deng
-      the_mikva_juvenile_justice_council: the Mikva Juvenile Justice Council
-
   questions:
     index:
       welcome_to_expungeio_for_illinois: Bienvenido a Expunge.io para Illinois
@@ -26,10 +14,12 @@ es:
       
     disclaimer:
       disclaimer: "RENUNCIA"
-      helpful_text: Este applicación-web pretende a 
+      helpful_text: Este applicación-web pretende ser de ayuda en clarificando el asunto de borrando los antecedentes juveniles, pero
+      does_not_serve_as_a_substitute_for_legal_aid: no sirve como un substituto para la ayuda legal
+      to_ensure_that_there: Para asegurar que no hay errores, es una buen idea a hablar con un abogado
       if_you_are_uncertain_about_how_to_answer_any_of_the_following_questions: si estás inseguro de como responder a cualquier pregunta
       after_you_go_through_all_the_questions_to_double_check_your_eligibility: despues de leer las preguntas, revise otravez su eligibilidad
-      to_speak_with_a_lawyer_just_click_legal_aid_at_the_top_of_the_page: para hablar con un abogado, haz clic en legal aid en la parte más alta de la página
+      to_speak_with_a_lawyer_just_click_legal_aid_at_the_top_of_the_page: Para hablar con un abogado, haz clic en LEGAL AID en la parte más alta de la página.
       button: Sí, yo entiendo. Empezamos!
   
       
