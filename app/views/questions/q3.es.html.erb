@@ -1,0 +1,47 @@
+<div class="center">
+
+<h2><%= I18n.t("questions.q3.what_offense_were_you_found_delinquent_of", :default => "What offense were you found delinquent of?") %></h2>
+
+
+<%= link_to("Felony", complicated_path, :method => "get", :class => "btn btn-large") %>
+<%= link_to("Class A Misdemeanor", complicated_path, :method => "get", :class => "btn btn-large")%>
+<%= link_to("Class B or C Misdemeanor", q2_path, :method => "get", :class => "btn btn-large") %>
+
+<br><br>
+<%= link_to("I'm not sure", notsure_path, :method => "get", :class => "btn btn-large") %>
+
+<br><br>
+<h4><%= I18n.t("questions.q3.examples_of_misdemeanors", :default => "Examples of misdemeanors:") %></h4>
+
+	<div class="row">
+		<div class="span4">
+			<h5><%= I18n.t("questions.q3.class_a", :default => "Class A") %></h5>
+			<ul>
+				<li><%= I18n.t("questions.q3.battery", :default => "Battery") %></li>
+				<li><%= I18n.t("questions.q3.theft", :default => "Theft") %></li>
+				<li><%= I18n.t("questions.q3.driving_under_the_influence", :default => "Driving under the influence") %></li>
+				<li>Shoplifting (under $300)</li>
+				<li>Vandalism (under $300 damage)</li>
+				<li><%= I18n.t("questions.q3.possession_of_cannabis_10-30_grams", :default => "Possession of cannabis (10-30 grams)") %></li>
+			</ul>
+		</div>
+		<div class="span4">
+			<h5><%= I18n.t("questions.q3.class_b", :default => "Class B") %></h5>
+			<ul>
+				<li><%= I18n.t("questions.q3.public_intoxication", :default => "Public intoxication") %></li>
+				<li><%= I18n.t("questions.q3.trespassing", :default => "Trespassing") %></li>
+				<li><%= I18n.t("questions.q3.possession_of_cannabis_25-10_grams", :default => "Possession of cannabis (2.5-10 grams)") %></li>
+			</ul>
+		</div>
+		<div class="span4">
+			<h5><%= I18n.t("questions.q3.class_c", :default => "Class C") %></h5>
+			<ul>
+				<li><%= I18n.t("questions.q3.simple_assualt", :default => "Simple assualt") %></li>
+				<li><%= I18n.t("questions.q3.disorderly_conduct", :default => "Disorderly conduct") %></li>
+				<li><%= I18n.t("questions.q3.possession_of_cannabis_up_to_25_grams", :default => "Possession of cannabis (up to 2.5 grams)") %></li>
+			</ul>
+		</div>
+	</div>
+
+
+</div>
