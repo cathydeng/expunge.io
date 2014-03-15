@@ -24,5 +24,6 @@ module Expungio
       I18n.locale = :en
       I18n.default_locale = :en
       I18n.reload!
+    end
   end
 end
