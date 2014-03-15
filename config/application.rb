@@ -18,10 +18,9 @@ module Expungio
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
     # config.time_zone = 'Central Time (US & Canada)'
-    config.before_configuration do    
-      I18n.load_path += Dir[Rails.root.join('config', 'locales', 'models','*', '*.yml').to_s]
-      I18n.load_path += Dir[Rails.root.join('config', 'locales', 'views','*', '*.yml').to_s]
-      I18n.locale = :es
+    config.before_configuration do      
+      I18n.load_path += Dir[Rails.root.join('config', 'locales', 'views','*', '*.{rb,yml}').to_s]
+      I18n.locale = :en
       I18n.default_locale = :en
       I18n.reload!
     end
