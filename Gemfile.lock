@@ -70,12 +70,6 @@ GEM
     missing_t (0.4.1)
     multi_json (1.8.4)
     polyglot (0.3.4)
-    r18n-core (1.1.8)
-    r18n-rails (1.1.8)
-      r18n-rails-api (= 1.1.8)
-    r18n-rails-api (1.1.8)
-      i18n
-      r18n-core (= 1.1.8)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -156,7 +150,6 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   less-rails
   missing_t
-  r18n-rails (= 1.1.8)
   rails (= 4.0.2)
   rails_12factor
   sass
