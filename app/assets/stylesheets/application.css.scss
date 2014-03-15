@@ -10,9 +10,9 @@ html, body {
   height: 100%;
 }
 
-/*light teal was #DAEDE5, light blue #B6E3E3, lighter blue azure */
+/*light teal was #DAEDE5, light blue #B6E3E3, lighter blue azure, greenish #A4DBC2*/
 body {
-  background: #A4DBC2;
+  background: #FFFFFF;
   font-family: 'Lato', sans-serif;
   -webkit-text-stroke: 0.1px;
 
@@ -24,15 +24,33 @@ body {
   }
 }
 
+button {
+  background-color: #FFA24C;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-text-stroke: 0px;
+
+}
+
+button:hover {
+  background: #DA893E;
+}
 
 
 a {
-  color: #2f756b;
-  border-bottom: 1px dotted #2f756b;
+  color: #1abc9c;
 
   &:hover {
-    color: #333;
-    border-bottom: 1px solid #333;
+    color: #148F77;
+    border-bottom: 1px solid #148F77;
     text-decoration: none;
   }
 }
@@ -54,6 +72,7 @@ a {
 
 p {
   margin: 0 0 20px 0;
+  font-size: 1.2em;
 }
 
 hr {
@@ -89,8 +108,9 @@ footer,
 
 /* Header */
 .topbar{
-  // the salmon color was D97A55
-  background: #48BDAD;
+  // the salmon color was D97A55. teal #48BDAD
+  background: #1abc9c;
+  -webkit-text-stroke: 0px;
 
   @media screen and (max-width: 979px) {
     padding: 0 20px;
@@ -127,7 +147,8 @@ footer,
 
 /* Content */
 .page-header {
-  border-color: #333;
+  border: none;
+  color: #166B92;
 }
 
 /* Footer */
