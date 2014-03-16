@@ -1,18 +1,10 @@
 es:
   questions:
     index:
+      welcome_to: Bienvenido a
       expungeio: expunge.io
-      if_you_were_arrested_when_you_were_18_or_younger_you_have_a_juvenile_record_that_does_not_go_away_on_its_own: Si fuistes arrestado cuando tenias 18 o menos, tienes un registro que no se desaparece solo.
-      juvenile_expungement: Borrar los antecedentes juveniles!
-      i_was_arrested_as_a_teenager_in_illinois_can_i_erase_my_juvenile_record: "Yo fui arrestado de adolecente en Illinois.  Puedo borrar mis antecedentes juveniles?"
-      
-
-    disclaimer:
-      disclaimer: "RENUNCIA"
-      if_you_are_uncertain_about_how_to_answer_any_of_the_following_questions: si estás inseguro de como responder a cualquier pregunta
-      after_you_go_through_all_the_questions_to_double_check_your_eligibility: despues de leer las preguntas, revise otravez su eligibilidad
-      to_speak_with_a_lawyer_just_click_legal_aid_at_the_top_of_the_page: para hablar con un abogado, haz clic en legal aid en la parte más alta de la página
-      button: Sú, yo entiendo. Empezamos!
-  
-      
-        
+      for_illinois: para Illinois
+      if_you_were_arrested_when_you_were_18_or_younger_you_have_a_juvenile_record_that_does_not_go_away_on_its_own: Si fuiste arrestado cuando tenias 18 o menos, tienes un expediente juvenil y no se desaparece solo.
+      good_news_called: Las bueno es que la mayoría de los expedientes juveniles pueden ser borrados por un proceso llamado
+      juvenile_expungement: Juvenile Expungement!
+      i_was_arrested_as_a_teenager_in_illinois_can_i_erase_my_juvenile_record: "Yo fui arrestado de joven en Illinois.  ¿Puedo borrar mis antecedentes juveniles?"
