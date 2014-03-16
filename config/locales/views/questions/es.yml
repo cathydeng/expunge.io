@@ -1,7 +1,12 @@
-# ruby encoding: utf-8
-
 es:
   questions:
+    index:
+      expungeio: expunge.io
+      if_you_were_arrested_when_you_were_18_or_younger_you_have_a_juvenile_record_that_does_not_go_away_on_its_own: Si fuistes arrestado cuando tenias 18 o menos, tienes un registro que no se desaparece solo.
+      juvenile_expungement: Borrar los antecedentes juveniles!
+      i_was_arrested_as_a_teenager_in_illinois_can_i_erase_my_juvenile_record: "Yo fui arrestado de adolecente en Illinois.  Puedo borrar mis antecedentes juveniles?"
+      
+
     disclaimer:
       disclaimer: "RENUNCIA"
       if_you_are_uncertain_about_how_to_answer_any_of_the_following_questions: si estás inseguro de como responder a cualquier pregunta
