@@ -55,6 +55,14 @@ a {
   }
 }
 
+#match-topbar-text {
+
+	font-weight: 200;
+	color: #10241A;
+	font-size: 75px;
+	text-shadow: 0px 1px 0px #555;
+}
+
 #big-text{
   font-size:2.0em;
   line-height:1.2em;
@@ -125,7 +133,7 @@ footer,
 
   .nav > li > a{
     text-shadow: none;
-    color: white;
+    color: 472C23;
     border: none;
 
     @media screen and (max-width: 480px) {
@@ -147,7 +155,7 @@ footer,
 /* Content */
 .page-header {
   border: none;
-  color: #166B92;
+  color: #472C23;
 }
 
 /* Footer */
