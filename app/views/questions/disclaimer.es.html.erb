@@ -1,7 +1,7 @@
 <div class="center">
 
   <h2><%= I18n.t("questions.disclaimer.disclaimer", :default => "DISCLAIMER") %></h2>
-  <p>This web app intends to be helpful in clarifying juvenile expungement, but <i><b><%= I18n.t("questions.disclaimer.does_not_serve_as_a_substitute_for_legal_aid", :default => "does not serve as a substitute for legal aid") %></b></i>. To ensure that there is no misunderstanding, it's a good idea to speak with a lawyer:
+  <p><%= I18n.t("questions.disclaimer.helpful_text",:default =>"This web app intends to be helpful in clarifying juvenile expungement, but ") %><i><b> <%= I18n.t("questions.disclaimer.does_not_serve_as_a_substitute_for_legal_aid", :default => "does not serve as a substitute for legal aid") %></b></i>. <%= I18n.t("questions.disclaimer.to_ensure_that_there", :default => "To ensure that there is no misunderstanding, it's a good idea to speak with a lawyer") %>:
     <ul>
       <li><%= I18n.t("questions.disclaimer.if_you_are_uncertain_about_how_to_answer_any_of_the_following_questions", :default => "if you are uncertain about how to answer any of the following questions") %></li>
       <li><%= I18n.t("questions.disclaimer.after_you_go_through_all_the_questions_to_double_check_your_eligibility", :default => "after you go through all the questions, to double check your eligibility") %></li>
