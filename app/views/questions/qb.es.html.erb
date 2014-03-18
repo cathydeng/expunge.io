@@ -1,11 +1,11 @@
 <div class="center">
 
-<h2><%= I18n.t("questions.qb.was_your_case_dismissed_thrown_out", :default => "Was your case dismissed (thrown out)?") %></h2>
+  <h2><%= I18n.t("questions.qb.was_your_case_dismissed_thrown_out", :default => "Was your case dismissed (thrown out)?") %></h2>
 
 
-<%= link_to("No", qc_path, :method => "get", :class => "btn btn-large")%>
-<%= link_to("Yes", q2_path, :method => "get", :class => "btn btn-large") %>
-<br><br>
-<%= link_to("I'm not sure", notsure_path, :method => "get", :class => "btn btn-large") %>
+  <%= link_to(I18n.t("questions.simple.n", :default => "No"), qc_path, :method => "get", :class => "btn btn-large") %>
+  <%= link_to(I18n.t("questions.simple.y", :default => "Yes"), q2_path, :method => "get", :class => "btn btn-large") %>
+  <br><br>
+  <%= link_to(I18n.t("questions.simple.im_not_sure", :default => "I'm not sure"), notsure_path, :method => "get", :class => "btn btn-large") %>
 
 </div>

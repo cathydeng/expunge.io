@@ -1,168 +1,42 @@
 es:
   questions:
+
+    simple:
+      y: Sí
+      n: "No"
+      im_not_sure: No estoy seguro
+
     index:
+      welcome_to: Bienvenido a
       expungeio: expunge.io
-      if_you_were_arrested_when_you_were_18_or_younger_you_have_a_juvenile_record_that_does_not_go_away_on_its_own: Si fuistes arrestado cuando tenias 18 o menos, tienes un registro que no se desaparece solo.
-      juvenile_expungement: Borrar los antecedentes juveniles!
-      i_was_arrested_as_a_teenager_in_illinois_can_i_erase_my_juvenile_record: "Yo fui arrestado de adolecente en Illinois.  Puedo borrar mis antecedentes juveniles?"
-      
+      for_illinois: para Illinois
+      if_you_were_arrested_when_you_were_18_or_younger_you_have_a_juvenile_record_that_does_not_go_away_on_its_own: Si fuiste arrestado cuando tenias 18 años o menos, tienes un expediente juvenil, y tienes que saber que no se va desaparecer por si solo.
+      good_news_called: Lo bueno es que la mayoría de los expedientes juveniles pueden ser borrados por un proceso llamado
+      juvenile_expungement: Juvenile Expungement!
+      i_was_arrested_as_a_teenager_in_illinois_can_i_erase_my_juvenile_record: "Yo fui arrestado de joven en Illinois.  ¿Puedo borrar mis antecedentes juveniles?"
 
     disclaimer:
-      disclaimer: "RENUNCIA"
-      helpful_text: Este applicación-web pretende ser de ayuda en clarificando el asunto de borrando los antecedentes juveniles, pero
-      does_not_serve_as_a_substitute_for_legal_aid: no sirve como un substituto para la ayuda legal
-      to_ensure_that_there: Para asegurar que no hay errores, es una buen idea a hablar con un abogado
-      if_you_are_uncertain_about_how_to_answer_any_of_the_following_questions: si estás inseguro de como responder a cualquier pregunta
-      after_you_go_through_all_the_questions_to_double_check_your_eligibility: despues de leer las preguntas, revise otravez su eligibilidad
-      to_speak_with_a_lawyer_just_click_legal_aid_at_the_top_of_the_page: Para hablar con un abogado, haz clic en LEGAL AID en la parte más alta de la página.
+      disclaimer: "AVISO LEGAL"
+      helpful_text: Esta aplicación-web pretende ser de ayuda para entender el proceso para borrar los antecedentes juveniles, pero
+      does_not_serve_as_a_substitute_for_legal_aid: no sirve como un substituto de la ayuda legal
+      to_ensure_that_there: Para asegurar que no hayan errores, es una buena idea a consultar con un abogado
+      if_you_are_uncertain_about_how_to_answer_any_of_the_following_questions: si no estás seguro de como responder a cualquier pregunta.
+      after_you_go_through_all_the_questions_to_double_check_your_eligibility: después de leer las preguntas, para revisar otra vez su elegibilidad.
+      to_speak_with_a_lawyer_just_click_legal_aid_at_the_top_of_the_page: Para hablar con un abogado, haz clic en ASISTENCIA LEGAL en la parte de arriba de la página.
       button: Sí, yo entiendo. Empezamos!
 
     qa:
-      what_type_of_juvenile_record_are_you_hoping_to_expunge: Que tipo de expendiente juvenil estas intentando a borrar?
-      note_the_expungement_process_is_per_case_-_if_you_have_multiple_arrests_or_court_cases_each_case_must_be_considered_separately: Note que el proceso de borrar los antecedentes juveniles es caso por caso - si tienes arrestos múltiples o casos de corte, cada caso tiene que ser considerado separados.
-      button:
-        arrest_without_court: Un arresto sin ir a corte
-        arrest_with_case: Un arresto que resultó en un caso de corte
-        court_no_arrest: Un caso de corte sin arresto
-
-    q2:
-      how_old_are_you: ¿Qué edad tienes?
-      18_and_older: 18 o mayor
-      under_18: menos de 18
-
-    eligible1:
-      you_are_eligible_to_apply_for_juvenile_expungement_in_illinois_under_subsection_1: Eres elegible para solicitar borrar los antecedentes juveniles en Illinois según subdivision 1
-      after_you_submit_this_form_a_lawyer_from_laf_chicago_will_contact_you_as_soon_as_they_can_they_will_look_into_your_record_to_confirm_that_you_are_eligible_for_expungement_and_then_they_will_guide_you_through_the_rest_of_the_petitioning_process: Despues que envies este formulario un abogado se va poner en contacto los mas pronto posible.  Van a ver tus antecedentes para determinar si eres elegible para expungement y te van a guiar por el processo!
-
-
-    notyet1:
-      you_are_not_yet_eligible_to_apply_for_juvenile_expungement_but_hold_tight_-_you_will_be_eligible_when_you_are_18_years_old: No eres todavia elegible para solicitar borrar los antecedentes juveniles, pero paciencia - vas hacer elegible cuando cumplos los 18 años.
-      there_are_still_options_for_you_now: Todavia hay opciones para ti AHORA
-      north_lawndale_employment_network: North Lawndale Employment Network
-      xamire_felony_friendly_jobs_network: Xamire Felony Friendly Jobs Network
-      how_to_apply_for_a_job: Como solicitar un trabajo
-
-
-    eligible2:
-      you_are_eligible_to_apply_for_juvenile_expungement_in_illinois_under_subsection_1: Eres elegible para solicitar borrar los antecedentes juveniles en Illinois según subdivision 1
-      after_you_submit_this_form_a_lawyer_from_laf_chicago_will_contact_you_as_soon_as_they_can_they_will_look_into_your_record_to_confirm_that_you_are_eligible_for_expungement_and_then_they_will_guide_you_through_the_rest_of_the_petitioning_process: Despues que envies este formulario un abogado se va poner en contacto los mas pronto posible.  Van a ver tus antecedentes para determinar si eres elegible para expungement y te van a guiar por el processo!
-
-    eligible3:
-      you_are_eligible_to_apply_for_juvenile_expungement_in_illinois_under_subsection_2: Eres elegible para solicitar borrar los antecedentes juveniles en Illinois según subdivision 2
-      after_you_submit_this_form_a_lawyer_from_laf_chicago_will_contact_you_as_soon_as_they_can_they_will_look_into_your_record_to_confirm_that_you_are_eligible_for_expungement_and_then_they_will_guide_you_through_the_rest_of_the_petitioning_process: Despues que envies este formulario un abogado se va poner en contacto los mas pronto posible.  Van a ver tus antecedentes para determinar si eres elegible para expungement y te van a guiar por el processo!
-
-    notyet2:
-      you_are_not_yet_eligible_to_apply_for_juvenile_expungement_but_hold_tight_-_you_will_be_eligible_when_you_are_21_years_old_and_it_has_been_5_years_since_your_case_ended:
-      there_are_still_options_for_you_now: Todavia hay opciones para ti AHORA
-      north_lawndale_employment_network: North Lawndale Employment Network
-      xamire_felony_friendly_jobs_network: Xamire Felony Friendly Jobs Network
-      how_to_apply_for_a_job: Como solicitar un trabajo
-
-    notyet3:
-      you_are_not_yet_eligible_to_apply_for_juvenile_expungement_but_hold_tight_-_you_will_be_eligible_once_it_has_been_5_years_since_your_case_ended:
-      there_are_still_options_for_you_now: Todavia hay opciones para ti AHORA
-      north_lawndale_employment_network: North Lawndale Employment Network
-      xamire_felony_friendly_jobs_network: Xamire Felony Friendly Jobs Network
-      how_to_apply_for_a_job: Como solicitar un trabajo
-
-    notyet4:
-      you_are_not_yet_eligible_to_apply_for_juvenile_expungement_but_hold_tight_-_you_will_be_eligible_once_you_have_completed_supervision:
-      there_are_still_options_for_you_now: Todavia hay opciones para ti AHORA
-      north_lawndale_employment_network: North Lawndale Employment Network
-      xamire_felony_friendly_jobs_network: Xamire Felony Friendly Jobs Network
-      how_to_apply_for_a_job: Como solicitar un trabajo
-
-    q3:
-      what_offense_were_you_found_delinquent_of: What offense were you found delinquent of?
-      examples_of_misdemeanors: Examples of misdemeanors
-      class_a: Class A
-      battery: Battery
-      theft: Theft
-      driving_under_the_influence: Driving under the influence
-      possession_of_cannabis_10-30_grams:
-      class_b: Class B
-      public_intoxication: Public intoxication
-      trespassing: Trespassing
-      possession_of_cannabis_25-10_grams:
-      class_c: Class C
-      simple_assualt: Simple assualt
-      disorderly_conduct: Disorderly conduct
-      possession_of_cannabis_up_to_25_grams:
-
-    q4:
-      how_old_are_you: How old are you?
-
-    q5:
-      was_the_conviction_first_degree_murder: Was the conviction first degree murder?
-
-    q6:
-      was_the_conviction_a_felony_sex_offense: Was the conviction a felony sex offense?
-
-    q7:
-      do_you_have_any_adult_convictions: Do you have any adult convictions?
-
-    q8:
-      how_old_are_you: How old are you?
-
-    q9:
-      has_it_been_at_least_5_years_since_your_case_ended_including_any_probation_or_commitment_to_department_of_corrections: ha sido a lo menos 5 años desde cuando tu caso termino incluyendo cualqier probacion o [commitment to dept of corrections]
-
-
+      what_type_of_juvenile_record_are_you_hoping_to_expunge: ¿Qué tipo de expendiente juvenil estás intentando borrar?
+      note_the_expungement_process_is_per_case_-_if_you_have_multiple_arrests_or_court_cases_each_case_must_be_considered_separately: Ten en cuenta que el proceso de borrar los antecedentes juveniles es sugún sea cada caso - si tienes arrestos múltiples o casos de corte, cada caso tiene que ser considerado separadamente.
+      arrest_without_court: Un arresto sin ir a corte
+      arrest_with_case: Un arresto que resultó en un caso de corte
+      court_no_arrest: Un caso de corte sin un arresto
     qb:
-      was_your_case_dismissed_thrown_out: fue tu caso [thrown out]?
-
+      was_your_case_dismissed_thrown_out: Fue tu caso descartado (eliminado)?
     qc:
-      what_happened_in_your_case: Que paso en tu caso?
-
+      what_happened_in_your_case: Que occurió en tu caso?
+      found_not_delinquent: declarado no delincuente (no culpable)
+      got_supervision: fui vigilado (bajo supervisión)
+      found_delinquent: declarado delincuente (culpable)
     qd:
-      has_the_supervision_been_completed_satisfactorily: Has the supervision been completed satisfactorily?
-
-    traffic:
-      traffic_cases_proceed_in_adult_court: Traffic cases proceed in adult court
-
-    noteligible:
-      you_are_not_eligible_to_apply_for_expungement: You are not eligible to apply for expungement
-      however_there_are_still_options_for_you:
-      north_lawndale_employment_network: North Lawndale Employment Network
-      xamire_felony_friendly_jobs_network: Xamire Felony Friendly Jobs Network
-      how_to_apply_for_a_job: How to apply for a job
-      if_you_have_any_questions_contact_legal_aid:
-
-    legalaid:
-      legal_aid: Legal Aid
-      juvenile_expungement_help_desk: Juvenile Expungement Help Desk
-      this_is_a_free_service_&_there_are_lawyers_who_are_eager_to_help_you: This is a free service & there are lawyers who are eager to help you!
-      here: here
-
-    complicated:
-      your_might_be_eligible_for_juvenile_expungement_call_the_juvenile_expungement_help_desk_at_312_229-6359_-_a_lawyer_will_be_able_to_look_up_your_records_for_free:
-
-    about:
-      about: About
-      this_is_a_web_app_created_for_people_with_juvenile_records_in_illinois: This is a web app created for people with juvenile records in Illinois.
-      few_people_apply_for_juvenile_expungement: few people apply for juvenile expungement
-      idea_for_this_app: idea for this app
-      interested_in_learning_more_about_juvenile_justice_&_expungement_check_out_these_links: Interested in learning more about juvenile justice & expungement? Check out these links
-      why_is_it_so_hard_to_expunge_juvenile_records_in_cook_county_wbez:
-      boxed_in_how_a_criminal_record_keeps_you_unemployed_for_life_the_nation:
-      expungement_vocabulary_-_explained_on_vine: Expungement vocabulary - explained on Vine
-      illinois_juvenile_criminal_records_-_explained_on_rap_genius: Illinois Juvenile Criminal Records - explained on Rap Genius
-      mikva_jjc_full_report_2013: Mikva JJC Full Report 2013
-      illinois_legal_aid_online: Illinois Legal Aid Online
-
-
-    FAQ:
-      frequently_asked_questions: Frequently Asked Questions
-      after_i_find_out_i_am_eligible_to_apply_for_juvenile_expungement_in_illinois_what_do_i_have_to_do:
-      remember_that_free_legal_aid_is_available_to_help_you_complete_the_process_use_it_to_petition_for_juvenile_expungement_you_will_need_to:
-      get_a_copy_of_your_rap_sheet:  Get a copy of your RAP sheet
-      fill_out_a_petition_form:  Fill out a petition form
-      submit_your_petition_to_the_appropriate_court:  Submit your petition to the appropriate court
-      where_do_i_get_my_rap_sheet: Where do I get my RAP sheet?
-      for_records_in_the_city_of_chicago_go_to:
-      mon-fri_8am-3pm: Mon-Fri 8am-3pm
-      how_much_does_juvenile_expungement_cost: How much does juvenile expungement cost?
-      how_long_does_the_process_take: How long does the process take?
-      usually_a_court_date_is_scheduled_about_15_months_from_the_petition_date_after_a_judge_approves_the_petition_on_the_court_date_it_takes_about_2_months_for_the_police_to_erase_records_so_35_months_total_if_necessary_expungement_can_be_expedited_to_about_25_months_total:
-      after_i_petition_for_juvenile_expungement_what_are_the_chances_that_my_petition_will_be_approved:
-      almost_all: almost all
+      has_the_supervision_been_completed_satisfactorily: ¿Se completó la supervisión satisfactoriamente?

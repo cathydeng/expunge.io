@@ -1,7 +1,7 @@
 es:
   layouts:
-    application:      
-      home: Pagina de Inicio
+    application:
+      home: Página de Inicio
       about: Acerca
       faqs: Preguntas Frecuentes
-      legal_aid: ASISTENCIA LEGAL! 
+      legal_aid: ASISTENCIA LEGAL!
