@@ -40,3 +40,8 @@ es:
       found_delinquent: declarado delincuente (culpable)
     qd:
       has_the_supervision_been_completed_satisfactorily: ¿Se completó la supervisión satisfactoriamente?
+
+    q2:
+      how_old_are_you: ¿Qué edad tienes?
+      18_and_older: 18 años o mayor
+      under_18: menos de 18 años
