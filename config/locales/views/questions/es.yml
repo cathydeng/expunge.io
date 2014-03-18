@@ -38,3 +38,5 @@ es:
       found_not_delinquent: declarado no delincuente
       got_supervision: fui vigilado (bajo supervisión)
       found_delinquent: declarado delincuente
+    qd:
+      has_the_supervision_been_completed_satisfactorily: ¿Se completó la supervisión satisfactoriamente?
