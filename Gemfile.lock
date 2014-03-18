@@ -68,14 +68,8 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     missing_t (0.4.1)
-    multi_json (1.8.4)
+    multi_json (1.9.0)
     polyglot (0.3.4)
-    r18n-core (1.1.8)
-    r18n-rails (1.1.8)
-      r18n-rails-api (= 1.1.8)
-    r18n-rails-api (1.1.8)
-      i18n
-      r18n-core (= 1.1.8)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -110,7 +104,7 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
-    sprockets (2.10.1)
+    sprockets (2.11.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
@@ -156,13 +150,12 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   less-rails
   missing_t
-  r18n-rails (= 1.1.8)
   rails (= 4.0.2)
   rails_12factor
   sass
   sass-rails (~> 4.0.0)
   sdoc
-  sprockets (~> 2.10.1)
+  sprockets (~> 2.11.0)
   therubyracer
   turbolinks
   twitter-bootstrap-rails
