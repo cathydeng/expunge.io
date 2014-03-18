@@ -10,7 +10,7 @@ html, body {
   height: 100%;
 }
 
-/*light teal was #DAEDE5, light blue #B6E3E3, lighter blue azure, greenish #A4DBC2*/
+/*light teal was #DAEDE5, light blue #B6E3E3, lighter blue azure */
 body {
   background: #FFFFFF;
   font-family: 'Lato', sans-serif;
@@ -25,34 +25,42 @@ body {
 }
 
 button {
-  background-color: #FFA24C;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-  border-radius: 6px;
-  -webkit-text-stroke: 0px;
+	background-color: #FFA24C;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-text-stroke: 0px;
 
 }
 
 button:hover {
-  background: #DA893E;
+	background: #DA893E;
+
 }
 
-
 a {
-  color: #1abc9c;
+  color: #2f756b;
 
   &:hover {
     color: #148F77;
     border-bottom: 1px solid #148F77;
     text-decoration: none;
   }
+}
+
+#match-topbar-text {
+
+	font-weight: 200;
+	color: #10241A;
+	font-size: 75px;
+	text-shadow: 0px 1px 0px #555;
 }
 
 #big-text{
@@ -71,8 +79,8 @@ a {
 }
 
 p {
-  margin: 0 0 20px 0;
-  font-size: 1.2em;
+	margin: 0 0 20px 0;
+	font-size: 1.2em;
 }
 
 hr {
@@ -108,9 +116,8 @@ footer,
 
 /* Header */
 .topbar{
-  // the salmon color was D97A55. teal #48BDAD
-  background: #1abc9c;
-  -webkit-text-stroke: 0px;
+  // the salmon color was D97A55
+  background: #1ABC9C;
 
   @media screen and (max-width: 979px) {
     padding: 0 20px;
@@ -126,7 +133,7 @@ footer,
 
   .nav > li > a{
     text-shadow: none;
-    color: white;
+    color: #472C23;
     border: none;
 
     @media screen and (max-width: 480px) {
@@ -148,7 +155,7 @@ footer,
 /* Content */
 .page-header {
   border: none;
-  color: #166B92;
+  color: #472C23;
 }
 
 /* Footer */
@@ -160,7 +167,7 @@ footer {
     &,
     .text-right {
       text-align: left;
-    }    
+    }
   }
 
   .row {

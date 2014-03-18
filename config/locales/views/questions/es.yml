@@ -1,0 +1,42 @@
+es:
+  questions:
+
+    simple:
+      y: Sí
+      n: "No"
+      im_not_sure: No estoy seguro
+
+    index:
+      welcome_to: Bienvenido a
+      expungeio: expunge.io
+      for_illinois: para Illinois
+      if_you_were_arrested_when_you_were_18_or_younger_you_have_a_juvenile_record_that_does_not_go_away_on_its_own: Si fuiste arrestado cuando tenias 18 años o menos, tienes un expediente juvenil, y tienes que saber que no se va desaparecer por si solo.
+      good_news_called: Lo bueno es que la mayoría de los expedientes juveniles pueden ser borrados por un proceso llamado
+      juvenile_expungement: Juvenile Expungement!
+      i_was_arrested_as_a_teenager_in_illinois_can_i_erase_my_juvenile_record: "Yo fui arrestado de joven en Illinois.  ¿Puedo borrar mis antecedentes juveniles?"
+
+    disclaimer:
+      disclaimer: "AVISO LEGAL"
+      helpful_text: Esta aplicación-web pretende ser de ayuda para entender el proceso para borrar los antecedentes juveniles, pero
+      does_not_serve_as_a_substitute_for_legal_aid: no sirve como un substituto de la ayuda legal
+      to_ensure_that_there: Para asegurar que no hayan errores, es una buena idea a consultar con un abogado
+      if_you_are_uncertain_about_how_to_answer_any_of_the_following_questions: si no estás seguro de como responder a cualquier pregunta.
+      after_you_go_through_all_the_questions_to_double_check_your_eligibility: después de leer las preguntas, para revisar otra vez su elegibilidad.
+      to_speak_with_a_lawyer_just_click_legal_aid_at_the_top_of_the_page: Para hablar con un abogado, haz clic en ASISTENCIA LEGAL en la parte de arriba de la página.
+      button: Sí, yo entiendo. Empezamos!
+
+    qa:
+      what_type_of_juvenile_record_are_you_hoping_to_expunge: ¿Qué tipo de expendiente juvenil estás intentando borrar?
+      note_the_expungement_process_is_per_case_-_if_you_have_multiple_arrests_or_court_cases_each_case_must_be_considered_separately: Ten en cuenta que el proceso de borrar los antecedentes juveniles es sugún sea cada caso - si tienes arrestos múltiples o casos de corte, cada caso tiene que ser considerado separadamente.
+      arrest_without_court: Un arresto sin ir a corte
+      arrest_with_case: Un arresto que resultó en un caso de corte
+      court_no_arrest: Un caso de corte sin un arresto
+    qb:
+      was_your_case_dismissed_thrown_out: Fue tu caso descartado (eliminado)?
+    qc:
+      what_happened_in_your_case: Que occurió en tu caso?
+      found_not_delinquent: declarado no delincuente (no culpable)
+      got_supervision: fui vigilado (bajo supervisión)
+      found_delinquent: declarado delincuente (culpable)
+    qd:
+      has_the_supervision_been_completed_satisfactorily: ¿Se completó la supervisión satisfactoriamente?

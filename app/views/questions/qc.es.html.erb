@@ -1,0 +1,12 @@
+<div class="center">
+
+  <h2><%= I18n.t("questions.qc.what_happened_in_your_case", :default => "What happened in your case?") %></h2>
+
+
+  <%= link_to(I18n.t("questions.qc.found_not_delinquent", :default => "found not delinquent"), q2_path, :method => "get", :class => "btn btn-large")%>
+  <%= link_to(I18n.t("questions.qc.got_supervision", :default => "got supervision"), qd_path, :method => "get", :class => "btn btn-large") %>
+  <%= link_to(I18n.t("questions.qc.found_delinquent", :default => "found delinquent"), q3_path, :method => "get", :class => "btn btn-large") %>
+  <br><br>
+  <%= link_to(I18n.t("questions.simple.im_not_sure", :default => "I'm not sure"), notsure_path, :method => "get", :class => "btn btn-large") %>
+
+</div>
