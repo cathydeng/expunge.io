@@ -33,3 +33,8 @@ es:
       court_no_arrest: Un caso de corte sin un arresto
     qb:
       was_your_case_dismissed_thrown_out: Fue tu caso descartado (eliminado)?
+    qc:
+      what_happened_in_your_case: Que occurió en tu caso?
+      found_not_delinquent: declarado no delincuente
+      got_supervision: fui vigilado (bajo supervisión)
+      found_delinquent: declarado delincuente
