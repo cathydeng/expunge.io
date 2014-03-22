@@ -1,11 +1,12 @@
 <div class="center">
 
-<h2>What type of juvenile record are you hoping to expunge?</h2>
+<h2>After you were arrested, did you see a judge in court?</h2>
 <p>Note: the expungement process is per case - if you have multiple arrests or court cases, each case must be considered separately.</p>
 
 
-<%= link_to("An arrest without going to court", q2_path, :method => "get", :class => "btn btn-large")%>
-<%= link_to("An arrest resulting in a court case", qb_path, :method => "get", :class => "btn btn-large") %>
-<%= link_to("A court case with no arrest", qc_path, :method => "get", :class => "btn btn-large") %>
+<%= link_to("No", q2_path, :method => "get", :class => "btn btn-large")%>
+<%= link_to("Yes", qb_path, :method => "get", :class => "btn btn-large") %>
+<br><br>
+<%= link_to("I'm not sure", notsure_path, :method => "get", :class => "btn btn-large") %>
 
 </div>
