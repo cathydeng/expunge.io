@@ -48,6 +48,8 @@ Expungio::Application.routes.draw do
 
   get '/traffic', to: 'questions#traffic'
 
+  get '/adultrecord', to: 'questions#adultrecord'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
