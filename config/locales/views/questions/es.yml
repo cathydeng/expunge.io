@@ -45,3 +45,24 @@ es:
       how_old_are_you: ¿Qué edad tienes?
       18_and_older: 18 años o mayor
       under_18: menos de 18 años
+    q3:
+      what_offense_were_you_found_delinquent_of: Te encontraron delincuente (culpable) de qué delito?
+      felony: Delito Mayor
+      class_a_misdemeanor: Delito Clase A
+      class_b_or_c_misdemeanor: Delito Clase B o Delito Clase C
+      examples_of_misdemeanors: Ejemplos de delitos
+      class_a: Clase A
+      battery: Agresión violenta
+      theft: Robo
+      shoplifting: Hurto en tiendas (menos de $300)
+      vandalism: Vandalismo (menos de $300 de daños)
+      driving_under_the_influence: Manejando bajo los efectos del alcohol
+      possession_of_cannabis_10-30_grams: Posesión de cannabis (10-30 gramos)
+      class_b: Clase B
+      public_intoxication: Bajo los efectos del alcohol en publico
+      trespassing: Violación de propiedad privada
+      possession_of_cannabis_25-10_grams: Posesión de cannabis (2.5-10 gramos)
+      class_c: Clase C
+      simple_assualt: Agresión
+      disorderly_conduct: Mala conducta
+      possession_of_cannabis_up_to_25_grams: Posesión de cannibis (hasta 2.5 gramos)
