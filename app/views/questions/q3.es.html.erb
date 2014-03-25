@@ -1,6 +1,6 @@
 <div class="center">
 
-  <h2><%= I18n.t("questions.q3.what_offense_were_you_found_delinquent_of", :default => "What offense were you found delinquent of?") %></h2>
+  <h2><%= I18n.t("questions.q3.what_offense_were_you_found_delinquent_of", :default => "What offense were you found guilty/delinquent of?") %></h2>
 
 
   <%= link_to(I18n.t("questions.q3.felony", :default => "Felony"), complicated_path, :method => "get", :class => "btn btn-large") %>
@@ -11,7 +11,7 @@
   <%= link_to(I18n.t("questions.simple.im_not_sure", :default => "I'm not sure"), notsure_path, :method => "get", :class => "btn btn-large") %>
 
   <br><br>
-  <h4><%= I18n.t("questions.q3.examples_of_misdemeanors", :default => "Examples of misdemeanors:") %></h4>
+  <h4><%= I18n.t("questions.q3.examples_of_misdemeanors", :default => "Examples of misdemeanors") %>:</h4>
 
   <div class="row">
     <div class="span4">
@@ -42,6 +42,3 @@
       </ul>
     </div>
   </div>
-
-
-</div>
