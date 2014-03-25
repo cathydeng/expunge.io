@@ -29,8 +29,6 @@ Expungio::Application.routes.draw do
   get '/qb', to: 'questions#qb'
   get '/qc', to: 'questions#qc'
   get '/qd', to: 'questions#qd'
-  get '/qe', to: 'questions#qe'
-  get '/qf', to: 'questions#qf'
   
   get '/eligible1', to: 'questions#eligible1'
   get '/eligible2', to: 'questions#eligible2'
@@ -45,9 +43,16 @@ Expungio::Application.routes.draw do
   
   get '/complicated', to: 'questions#complicated'
 
+  get '/qopen1', to: 'questions#qopen1'
+  get '/qopen2', to: 'questions#qopen2'
+  get '/qopen3', to: 'questions#qopen3'
+  get '/opencase', to: 'questions#opencase'
 
-  get '/traffic', to: 'questions#traffic'
-
+  get '/agearrested', to: 'questions#agearrested'
+  get '/juvrecord', to: 'questions#juvrecord'
+  get '/yeararrested', to: 'questions#yeararrested'
+  get '/adultorjuv', to: 'questions#adultorjuv'
+  get '/qtrial', to: 'questions#qtrial'
   get '/adultrecord', to: 'questions#adultrecord'
 
   # The priority is based upon order of creation: first created -> highest priority.
