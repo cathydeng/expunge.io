@@ -1,15 +1,23 @@
 <div class="page-header">
-  <h1>Welcome to Expunge.io for Illinois</h1>
+  <h2>Welcome to Expunge.io for Illinois</h2>
 </div> 
 
-<div id="medium-text">
     <p>If you were arrested when you were 17 or younger, you probably have a juvenile record - these records do not go away on their own.</p>
     <p>The good news: most juvenile records can be erased through a process called <b>juvenile expungement!</b></p>
-</div>
 
-<br>
+
+<div class="page-header">
+  <h2>Juvenile Expungement 1-2-3</h2>
+</div> 
+
+
 <div>
-<%= link_to('<button id="big-text">I was arrested as a teenager in Illinois. Can I erase my juvenile record?</button>'.html_safe, disclaimer_path, :method => "get") %>
+<%= link_to('<button class="step1" id="medium-text">1. Find out if you are eligible for juvenile expungement</button>'.html_safe, disclaimer_path, :method => "get") %>
 </div>
-<br>
+<div>
+<%= link_to('<button class="step1" id="medium-text">2. Get arrest information (rap sheet)</button>'.html_safe, disclaimer_path, :method => "get") %>
+</div>
+<div>
+<%= link_to('<button class="step1" id="medium-text">3. Submit your paperwork</button>'.html_safe, disclaimer_path, :method => "get") %>
+</div>
 

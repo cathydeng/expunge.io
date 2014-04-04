@@ -30,7 +30,6 @@ button {
   padding: 10px 20px;
   border: none;
   cursor: pointer;
-  font-size: 22px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
@@ -38,6 +37,15 @@ button {
   border-radius: 6px;
   -webkit-text-stroke: 0px;
 
+}
+
+.step1 {
+  background-color: grey;
+  margin: 4px 0 4px 0;
+}
+
+.step1:hover {
+  background: black;
 }
 
 button:hover {
@@ -149,6 +157,7 @@ footer,
 .page-header {
   border: none;
   color: #166B92;
+  margin: 20px 0 10px 0;
 }
 
 /* Footer */
