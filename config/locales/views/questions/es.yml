@@ -74,7 +74,7 @@ es:
       possession_of_cannabis_up_to_25_grams: Posesión de cannibis (hasta 2.5 gramos)
 
     notyet1:
-      based_on_your_answers_you_are_not_yet_eligible_to_apply_for_juvenile_expungement_but_hold_tight_-_you_will_be_eligible_when_you_are_18_years_old: Basado en sus respuestas, no eres en este moment elegible para solicitar la eliminación de antecedentes penales.  Usted será elegible cuando usted tiene 18 años de edad.
+      based_on_your_answers_you_are_not_yet_eligible_to_apply_for_juvenile_expungement_but_hold_tight_-_you_will_be_eligible_when_you_are_18_years_old: Basado en sus respuestas, no eres en este momento elegible para solicitar la eliminación de antecedentes penales.  Usted será elegible cuando usted tiene 18 años de edad.
       there_are_still_options_for_you_now: "En este momento tienes opciónes:"
       north_lawndale_employment_network: North Lawndale Employment Network
       xamire_felony_friendly_jobs_network: Xamire Felony Friendly Jobs Network
@@ -82,4 +82,10 @@ es:
     eligible1:
       based_on_your_answers_you_are_eligible_to_apply_for_juvenile_expungement_in_illinois_under_subsection_1: Basado en sus respuestas, eres elegible para solicitar eliminación de antecedentes penales en Illinois bajo subdivisión 1.      
       after_you_submit: Después que entregas este formulario, un abogado do LAF Chicago va intentar a contactarle usando el numero que usted dio.  Ellos van a tratar a ayudar a confirmar que eres elegible para eliminación de antecedentes penales.  Después de eso te ayudarán con el resto del proceso del solicitud.  Note que entregado este formulario de internet no crea un contrato abogado-cliente con LAF.
-            
+
+    notyet4:
+      based_on_your_answers_you_are_not_yet_eligible_to_apply_for_juvenile_expungement_but_hold_tight_-_you_will_be_eligible_once_you_have_completed_supervision: Basado en sus respuestas, no eres en este momento elegible para solicitar la eliminación de antecedentes penales. Usted será elegible cuando termine su supervision.
+      there_are_still_options_for_you_now: "En este momento tienes opciónes:"
+      north_lawndale_employment_network: North Lawndale Employment Network
+      xamire_felony_friendly_jobs_network: Xamire Felony Friendly Jobs Network
+      how_to_apply_for_a_job: Como solicitar un trabajo
