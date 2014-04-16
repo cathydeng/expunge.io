@@ -10,14 +10,32 @@
   <h2>Juvenile Expungement 1-2-3</h2>
 </div> 
 
+<div class="row" id='action-steps'>
 
-<div>
-<%= link_to('<button class="step1" id="medium-text">1. Find out if you are eligible for juvenile expungement</button>'.html_safe, disclaimer_path, :method => "get") %>
+	<div class="span4">
+		<div class='well'>
+			<h4>1. Find out if you're eligible for juvenile expungement</h4>
+			<%= link_to('<button id="medium-text">START!</button>'.html_safe, disclaimer_path, :method => "get") %>
+		</div>
+	</div>
+
+	<div class="span4">
+		<div class='well'>
+			<h4 >2. Get your arrest information (rap sheet)</h4>
+		
+		<%= link_to('<button id="medium-text">Find Out How</button>'.html_safe, step2_path, :method => "get") %>
+		</div>
+	</div>
+
+	<div class="span4">
+		<div class='well'>
+			<h4>3. Apply for expungement</h4>
+		
+			<%= link_to('<button id="medium-text">Get Paperwork</button>'.html_safe, step3_path, :method => "get") %>
+		</div>
+
+	</div>
+	
 </div>
-<div>
-<%= link_to('<button class="step1" id="medium-text">2. Get arrest information (rap sheet)</button>'.html_safe, disclaimer_path, :method => "get") %>
-</div>
-<div>
-<%= link_to('<button class="step1" id="medium-text">3. Submit your paperwork</button>'.html_safe, disclaimer_path, :method => "get") %>
-</div>
+
 

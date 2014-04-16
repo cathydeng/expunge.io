@@ -25,7 +25,7 @@ body {
 }
 
 button {
-  background-color: #FFA24C;
+  background-color: #FFB224;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -48,8 +48,10 @@ button {
   background: black;
 }
 
+#action-steps h4 { height: 60px;}
+
 button:hover {
-  background: #DA893E;
+  background: #E3A634;
 }
 
 
