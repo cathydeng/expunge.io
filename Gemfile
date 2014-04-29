@@ -48,6 +48,7 @@ gem "sass", :require => 'sass'
 group :development do
   gem 'missing_t'
   gem 'i15r'
+  gem 'rails-erd'
 end
 
 group :production do
