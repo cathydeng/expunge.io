@@ -1,8 +1,8 @@
 EXPUNGE.IO
 ============
 
-* ruby 2.0.0p247
-* Rails 4.0.0 
+* ruby 1.9.3p545
+* Rails 4.0.4
 
 
 ###What is this?
