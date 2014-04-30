@@ -1,6 +1,4 @@
 Expungio::Application.routes.draw do
-  get "set_language/english"
-  get "set_language/spanish"
   resources :questions
   root :to => 'questions#index'
   
