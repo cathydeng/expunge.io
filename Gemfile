@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
 #for heroku
-#ruby "1.9.3"
+ruby "1.9.3"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.2'
+gem 'rails', '4.0.4'
 
 # I18n gem
 gem 'r18n-rails', '1.1.8'
