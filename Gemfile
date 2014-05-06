@@ -1,13 +1,10 @@
 source 'https://rubygems.org'
 
 #for heroku
-#ruby "1.9.3"
+ruby "1.9.3"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.2'
-
-# Use unicorn as the app server
-gem 'unicorn'
+gem 'rails', '4.0.4'
 
 # Use jquery as the JavaScript library
 # gem 'jquery-rails'
@@ -33,14 +30,12 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'sprockets', '~>2.11.0'
 
-
 # more? feb 25
 gem 'less-rails'
 gem 'therubyracer', :require => 'v8'
 gem 'twitter-bootstrap-rails'
 
 gem "sass", :require => 'sass'
-
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -48,7 +43,6 @@ gem "sass", :require => 'sass'
 group :development do
   gem 'missing_t'
   gem 'i15r'
-  gem 'rails-erd'
 end
 
 group :production do
@@ -59,7 +53,8 @@ end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
-
+# Use unicorn as the app server
+# gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development

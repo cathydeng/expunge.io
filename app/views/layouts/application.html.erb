@@ -10,7 +10,6 @@
 
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
-
     <!--[if lte IE 7]>
     <style type="text/css">
     .nav li {
@@ -29,10 +28,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <a class="brand" href="/">Expunge.io</a>
             <ul class="nav navbar-nav pull-right">
-              <li><%= link_to I18n.t("layouts.application.home", :default => "Home"), :action => "index" %></li>
-              <li><%= link_to I18n.t("layouts.application.about", :default => "About"), :action => "about" %></li>
-              <li><%= link_to I18n.t("layouts.application.faqs", :default => "FAQs"), :action => "FAQ" %></li>
-              <li><%= link_to I18n.t("layouts.application.legal_aid", :default => "LEGAL AID!"), :action => "legalaid" %></li>
+              <li><%= link_to "Home", :action => "index" %></li>
+              <li><%= link_to "About", :action => "about" %></li>
+              <li><%= link_to "FAQs", :action => "FAQ" %></li>
+              <li><%= link_to "LEGAL AID!", :action => "legalaid" %></li>
               <li>
                 <% if I18n.locale == :es %>
                   <%= link_to "English", set_language_english_path %>
@@ -40,9 +39,6 @@
                   <%= link_to "Español", set_language_spanish_path %>
                 <% end %>
               </li>
-
-
-
             </ul>
           </div>
         </nav>

@@ -1,6 +1,4 @@
 Expungio::Application.routes.draw do
-  get "set_language/english"
-  get "set_language/spanish"
   resources :questions
   root :to => 'questions#index'
   
@@ -12,6 +10,9 @@ Expungio::Application.routes.draw do
 
 #this maps urls to static pages
 
+  get '/step2', to: 'questions#step2'
+  get '/step3', to: 'questions#step3'
+  
 
   get '/disclaimer', to: 'questions#disclaimer'
   get '/notsure', to: 'questions#notsure'
