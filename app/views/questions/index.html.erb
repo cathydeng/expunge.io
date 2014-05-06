@@ -1,41 +1,39 @@
 <div class="page-header">
-  <h2>Welcome to Expunge.io for Illinois</h2>
-</div> 
-
-    <p>If you were arrested when you were 17 or younger, you probably have a juvenile record - these records do not go away on their own.</p>
-    <p>The good news: most juvenile records can be erased through a process called <b>juvenile expungement!</b></p>
-
-
-<div class="page-header">
-  <h2>Juvenile Expungement 1-2-3</h2>
-</div> 
-
-<div class="row" id='action-steps'>
-
-	<div class="span4">
-		<div class='well'>
-			<h4>1. Find out if you're eligible for juvenile expungement</h4>
-			<%= link_to('<button id="medium-text">START!</button>'.html_safe, disclaimer_path, :method => "get") %>
-		</div>
-	</div>
-
-	<div class="span4">
-		<div class='well'>
-			<h4 >2. Get your arrest information (rap sheet)</h4>
-		
-		<%= link_to('<button id="medium-text">Find Out How</button>'.html_safe, step2_path, :method => "get") %>
-		</div>
-	</div>
-
-	<div class="span4">
-		<div class='well'>
-			<h4>3. Apply for expungement</h4>
-		
-			<%= link_to('<button id="medium-text">Get Paperwork</button>'.html_safe, step3_path, :method => "get") %>
-		</div>
-
-	</div>
-	
+  <h2><%= I18n.t("questions.index.welcome_to_expungeio_for_illinois", :default => "Welcome to Expunge.io for Illinois") %></h2>
 </div>
 
+<p><%= I18n.t("questions.index.if_you_were_arrested_when_you_were_17_or_younger_you_probably_have_a_juvenile_record_-_these_records_do_not_go_away_on_their_own", :default => "If you were arrested when you were 17 or younger, you probably have a juvenile record - these records do not go away on their own.") %></p>
+  <p><%= I18n.t("questions.index.good_news", :default => "The good news: most juvenile records can be erased through a process called") %>  <b><%= I18n.t("questions.index.juvenile_expungement", :default => "juvenile expungement!") %></b></p>
 
+
+  <div class="page-header">
+    <h2><%= I18n.t("questions.index.juvenile_expungement_1-2-3", :default => "Juvenile Expungement 1-2-3") %></h2>
+  </div>
+
+  <div class="row" id='action-steps'>
+
+    <div class="span4">
+      <div class='well'>
+        <h4><%= I18n.t("questions.index.1_find_out_if_youre_eligible_for_juvenile_expungement", :default => "1. Find out if you're eligible for juvenile expungement") %></h4>
+        <%= medium_proceed_button(I18n.t("questions.index.start", :default => "START!")) %>
+      </div>
+    </div>
+
+    <div class="span4">
+      <div class='well'>
+        <h4 ><%= I18n.t("questions.index.2_get_your_arrest_information_rap_sheet", :default => "2. Get your arrest information (rap sheet)") %></h4>
+
+        <%= medium_proceed_button(I18n.t("questions.index.find_out_how", :default => "Find Out How")) %>
+      </div>
+    </div>
+
+    <div class="span4">
+      <div class='well'>
+        <h4><%= I18n.t("questions.index.3_apply_for_expungement", :default => "3. Apply for expungement") %></h4>
+
+        <%= medium_proceed_button(I18n.t("questions.index.get_paperwork", :default => "Get Paperwork")) %>
+      </div>
+
+    </div>
+
+  </div>
