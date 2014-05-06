@@ -7,13 +7,17 @@ es:
       im_not_sure: No estoy seguro
 
     index:
-      welcome_to: Bienvenido a
-      expungeio: expunge.io
-      for_illinois: para Illinois
-      17_or_younger: Si fuiste arrestado cuando tenias 17 años o menos, tienes un expediente juvenil, y tienes que saber que no se va desaparecer por si solo.
-      good_news_called: Lo bueno es que la mayoría de los expedientes juveniles pueden ser borrados por un proceso llamado
-      juvenile_expungement: Juvenile Expungement!
-      i_was_arrested_as_a_teenager_in_illinois_can_i_erase_my_juvenile_record: "Yo fui arrestado de joven en Illinois.  ¿Puedo borrar mis antecedentes juveniles?"
+      welcome_to_expungeio_for_illinois: Bienvenido a Expunge.io para Illinois
+      if_you_were_arrested_when_you_were_17_or_younger_you_probably_have_a_juvenile_record_-_these_records_do_not_go_away_on_their_own: Si fuiste arrestado a los 17 años o menos,es probable que tengas un registro de antecedentes penales de menores - estos registros no desaparecen por sí solos.
+      good_news: La buena noticia es que la mayoría de los expedientes de los menores se pueden borrar a través de un proceso llamado
+      juvenile_expungement: Juvenile Expungement (la eliminación de antecedentes penales de menores)!
+      juvenile_expungement_1-2-3: Juvenile Expungement 1-2-3
+      1_find_out_if_youre_eligible_for_juvenile_expungement: "1. Averigüe si eres elegible para la eliminación de antecedentes penales de menores"
+      start: EMPIEZA!
+      2_get_your_arrest_information_rap_sheet: "2. Obtenga la información de su arresto (lista de antecedentes penales/rap sheet)"
+      find_out_how: Entérese cómo
+      3_apply_for_expungement: "3. Solicite su registro do antecedentes penales de menores"
+      get_paperwork: Obtenga Trámites
 
     disclaimer:
       disclaimer: "AVISO LEGAL"
