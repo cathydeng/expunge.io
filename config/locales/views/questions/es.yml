@@ -110,7 +110,13 @@ es:
     about:
       about: Acerca
       this_is_a_web_app_created_for_people_with_juvenile_records_in_illinois: Esta es una aplicación-web creada para las personas con atecedentes penales de menores en Illinois.
+      a_juvenile: >
+        Un registro de menores es una barrera para el empleo y la educación. Afortunadamente,
+        los registros de menores se pueden borrar a través del proceso de "expungement".
+        Sin embargo, aunque la mayoría de los registros de menores se puede borrar,
+      
       few_people_apply_for_juvenile_expungement: pocas personas solicitan eliminación de antecedentes penales de menores
+      this_web: 
       idea_for_this_app: idea for this app
       interested_in_learning_more_about_juvenile_justice_&_expungement_check_out_these_links: "Interesado en aprender más acerca de la justicia de menores y eliminacion de antecedentes penales? Prueba los siguientes enlaces:"
       why_is_it_so_hard_to_expunge_juvenile_records_in_cook_county_wbez:
