@@ -142,11 +142,18 @@ es:
       get_a_copy_of_your_rap_sheet:  Obtener una copia de su "RAP sheet", (registro)
       fill_out_a_petition_form: Llenar un formulario de petición
       submit_your_petition_to_the_appropriate_court:  Enviar su petición a la corte aduecada
-      where_do_i_get_my_rap_sheet: Where do I get my RAP sheet?
-      for_records_in_the_city_of_chicago_go_to:
-      mon-fri_8am-3pm: Mon-Fri 8am-3pm
-      how_much_does_juvenile_expungement_cost: How much does juvenile expungement cost?
-      how_long_does_the_process_take: How long does the process take?
-      usually_a_court_date_is_scheduled_about_15_months_from_the_petition_date_after_a_judge_approves_the_petition_on_the_court_date_it_takes_about_2_months_for_the_police_to_erase_records_so_35_months_total_if_necessary_expungement_can_be_expedited_to_about_25_months_total:
-      after_i_petition_for_juvenile_expungement_what_are_the_chances_that_my_petition_will_be_approved:
-      almost_all: almost all                    
+      where_do_i_get_my_rap_sheet: ¿Donde puedo obtener mi "RAP sheet", (registro)?
+      for_records_in_the_city_of_chicago_go_to: Para registros de la cuidad de Chicago, vaya a
+      records_and: División de Servicios y Registros del Departamento de Policía de Chicago
+      mon-fri_8am-3pm: lunes a viernes, desde 8am-3pm
+      how_much_does_juvenile_expungement_cost: Cuánto cuesta la eliminación de antecedentes penales de menores?
+      it_costs: Cuesta $124 para borrar un solo arresto, más un cargo de $64 para cada detención adicional. Sin embargo, muchas personas califican para una exención de pago que hace gratis la eliminación de antecedentes penales.
+      how_long_does_the_process_take: Cuánto tiempo toma el proceso?
+      usually_a_court_date_is_scheduled_about_15_months_from_the_petition_date_after_a_judge_approves_the_petition_on_the_court_date_it_takes_about_2_months_for_the_police_to_erase_records_so_35_months_total_if_necessary_expungement_can_be_expedited_to_about_25_months_total: >-
+        Usualmente, una cita de corte es programada alrededor de un mes y medio a partir de la fecha de la petición. Después que un juez aprueba la petición
+        de la cita de corte, se tarda alrededor de 2 meses para que la policía borra los registros. Así, 3.5 meses en total. Si es necesario,
+        la eliminación de antecedentes penales puede ser acelerada a unos 2.5 meses en total.        
+      after_i_petition_for_juvenile_expungement_what_are_the_chances_that_my_petition_will_be_approved: >
+        Después de la petición para eliminación de antecedentes penales de menores, ¿cuáles son las posibilidades de que sea aprobado mi petición?
+          
+      almost_all: casi todos
