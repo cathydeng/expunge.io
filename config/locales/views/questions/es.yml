@@ -160,4 +160,16 @@ es:
       whether_your: Si se aprueba su petición es a criterio del juez. Sin embargo, en el pasado,
       almost_all: casi todas
       petitions: las peticiones han sido aprobados.
-      
+
+    legalaid:
+      legal_aid: Assistencia Legal
+      juvenile_expungement_help_desk: la eliminación de antecedentes penales de menores Help Desk
+      at: en      
+      this_is_a_free_service_&_there_are_lawyers_who_are_eager_to_help_you: Este es un servicio gratuito y hay abogados que están listos para ayudar!
+      here: aquí
+      contact: "Expedientes de menores en el Condado de Cook: Contactar a"
+      if_you_were: >
+        Si usted fue arrestado en un condado diferente en Illinois:
+        busque su código postal aquí 
+      and_contact_the: y póngase en contacto con la organización de ayuda legal adecuada
+     
