@@ -1,18 +1,19 @@
 Expungio::Application.routes.draw do
+  get "set_language/english"
+  get "set_language/spanish"
   resources :questions
   root :to => 'questions#index'
-  
 
   get '/about', to: 'questions#about'
   get '/FAQ', to: 'questions#FAQ'
   get '/legalaid', to: 'questions#legalaid'
 
 
-#this maps urls to static pages
+  #this maps urls to static pages
 
   get '/step2', to: 'questions#step2'
   get '/step3', to: 'questions#step3'
-  
+
 
   get '/disclaimer', to: 'questions#disclaimer'
   get '/notsure', to: 'questions#notsure'
@@ -32,18 +33,18 @@ Expungio::Application.routes.draw do
   get '/qb', to: 'questions#qb'
   get '/qc', to: 'questions#qc'
   get '/qd', to: 'questions#qd'
-  
+
   get '/eligible1', to: 'questions#eligible1'
   get '/eligible2', to: 'questions#eligible2'
   get '/eligible3', to: 'questions#eligible3'
-  
+
   get '/noteligible', to: 'questions#noteligible'
-  
+
   get '/notyet1', to: 'questions#notyet1'
   get '/notyet2', to: 'questions#notyet2'
   get '/notyet3', to: 'questions#notyet3'
   get '/notyet4', to: 'questions#notyet4'
-  
+
   get '/complicated', to: 'questions#complicated'
 
   get '/qopen1', to: 'questions#qopen1'
@@ -98,7 +99,7 @@ Expungio::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
