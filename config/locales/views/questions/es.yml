@@ -193,3 +193,8 @@ es:
       you_might_be_eligible_for_juvenile_expungement_call_the_juvenile_expungement_help_desk_at_312_229-6359_-_a_lawyer_will_be_able_to_look_up_your_records_for_free: >
         Usted puede ser elegible para la eliminación de antecedentes penales de menores!  Llame el Juvenile Expungement Help Desk al (312) 229-6359 - un abogado podrá
         buscar sus expedientes de forma gratuita.
+    juvrecord:
+      based_on_your_answers_you_were_arrested_as_a_juvenile: >
+        Basado en sus respuestas, fuiste arrestado como un menor.
+      continue: >
+        Continuar
