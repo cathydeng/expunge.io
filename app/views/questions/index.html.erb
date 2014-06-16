@@ -15,7 +15,7 @@
     <div class="span4">
       <div class='well'>
         <h4><%= I18n.t("questions.index.1_find_out_if_youre_eligible_for_juvenile_expungement", :default => "1. Find out if you're eligible for juvenile expungement") %></h4>
-        <%= medium_proceed_button(I18n.t("questions.index.start", :default => "START!")) %>
+        <%= medium_proceed_button_disclaimer(I18n.t("questions.index.start", :default => "START!")) %>
       </div>
     </div>
 
@@ -23,7 +23,7 @@
       <div class='well'>
         <h4 ><%= I18n.t("questions.index.2_get_your_arrest_information_rap_sheet", :default => "2. Get your arrest information (rap sheet)") %></h4>
 
-        <%= medium_proceed_button(I18n.t("questions.index.find_out_how", :default => "Find Out How")) %>
+        <%= medium_proceed_button_step2(I18n.t("questions.index.find_out_how", :default => "Find Out How")) %>
       </div>
     </div>
 
@@ -31,7 +31,7 @@
       <div class='well'>
         <h4><%= I18n.t("questions.index.3_apply_for_expungement", :default => "3. Apply for expungement") %></h4>
 
-        <%= medium_proceed_button(I18n.t("questions.index.get_paperwork", :default => "Get Paperwork")) %>
+        <%= medium_proceed_button_step3(I18n.t("questions.index.get_paperwork", :default => "Get Paperwork")) %>
       </div>
 
     </div>
