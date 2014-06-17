@@ -198,3 +198,23 @@ es:
         Basado en sus respuestas, fuiste arrestado como un menor.
       continue: >
         Continuar
+
+    step2:
+      how_to_get_your_arrest_information: How to get your arrest information
+      in_order_to_apply_for_juvenile_expungement_you_will_need_your_arrest_information:
+      if_you_were_arrested_in_chicago: >
+          If you were arrested in Chicago:
+      for_free: de forma gratuita
+      mon-fri_8am-12pm: lunes a viernes 8am-12pm
+      if_you_were_arrested_outside_of_chicago: >
+        If you were arrested outside of Chicago:
+      if_a_police_department_tells_you_it_cannot_give_you_this_information_contact_the_juvenile_expungement_help_desk_at_312-229-6359:
+      applying_for_expungement: applying for expungement
+    step3:
+      how_to_apply_for_juvenile_expungement_in_illinois: How to apply for juvenile expungement in Illinois
+      some_forms: some forms
+      if_you_were_arrested_in_cook_county_including_chicago:
+      juvenile_expungement_help_desk: Juvenile Expungement Help Desk
+      if_you_were_arrested_outside_of_cook_county: >
+        If you were arrested outside of Cook County:
+                        
