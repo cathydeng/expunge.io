@@ -201,13 +201,21 @@ es:
 
     step2:
       how_to_get_your_arrest_information: Cómo obtener su información de arresto
-      in_order_to_apply_for_juvenile_expungement_you_will_need_your_arrest_information:
+      in_order_to_apply_for_juvenile_expungement_you_will_need_your_arrest_information: >
+        Para solicitar la eliminación de antecedentes penales de menores, usted necesitará la información de su arresto.
       if_you_were_arrested_in_chicago: >
-          If you were arrested in Chicago:
+        Si usted fue arrestado en Chicago:
+      you_can: Usted puede recoger su expediente de la detención
       for_free: de forma gratuita
+      in_person_at: >
+        en persona en:
       mon-fri_8am-12pm: lunes a viernes 8am-12pm
       if_you_were_arrested_outside_of_chicago: >
-        If you were arrested outside of Chicago:
+        Si usted fue arrestado fuera de Chicago:
+      records_and: División de Servicios y Registros del Departamento de Policía de Chicago
+      you_will_need: >
+        Usted tendrá que obtener dos piezas de información del departamento de policía que arrestó a: (1) la fecha de la detención y (2)la carga de la detención.
+            
       if_a_police_department_tells_you_it_cannot_give_you_this_information_contact_the_juvenile_expungement_help_desk_at_312-229-6359:
       applying_for_expungement: applying for expungement
     step3:
