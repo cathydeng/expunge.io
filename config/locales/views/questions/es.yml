@@ -214,9 +214,11 @@ es:
         Si usted fue arrestado fuera de Chicago:
       records_and: División de Servicios y Registros del Departamento de Policía de Chicago
       you_will_need: >
-        Usted tendrá que obtener dos piezas de información del departamento de policía que arrestó a: (1) la fecha de la detención y (2)la carga de la detención.
+        Usted tendrá que obtener dos piezas de información del departamento de policía que arrestó a: (1) la fecha de la detención y (2) la carga de la detención.
             
-      if_a_police_department_tells_you_it_cannot_give_you_this_information_contact_the_juvenile_expungement_help_desk_at_312-229-6359:
+      if_a_police_department_tells_you_it_cannot_give_you_this_information_contact_the_juvenile_expungement_help_desk_at_312-229-6359: >
+        Si un departamento de policía le dice que no puede darle información, comuníquese con la eliminación de antecedentes penales "Help Desk" al 312-229-6359
+      after_you:
       applying_for_expungement: applying for expungement
     step3:
       how_to_apply_for_juvenile_expungement_in_illinois: How to apply for juvenile expungement in Illinois
