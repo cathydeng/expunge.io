@@ -218,8 +218,9 @@ es:
             
       if_a_police_department_tells_you_it_cannot_give_you_this_information_contact_the_juvenile_expungement_help_desk_at_312-229-6359: >
         Si un departamento de policía le dice que no puede darle información, comuníquese con la eliminación de antecedentes penales "Help Desk" al 312-229-6359
-      after_you:
-      applying_for_expungement: applying for expungement
+      after_you: >
+        Una vez que tenga la información de su arresto, pase al siguiente paso - 
+      applying_for_expungement: la solicitud de eliminación de antecedentes penales
     step3:
       how_to_apply_for_juvenile_expungement_in_illinois: How to apply for juvenile expungement in Illinois
       some_forms: some forms
