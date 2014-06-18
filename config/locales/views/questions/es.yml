@@ -43,7 +43,7 @@ es:
         corte, cada caso tiene que ser considerado separadamente.
     qb:
       was_your_case_dismissed_thrown_out: Fue tu caso descartado (eliminado)?
-    
+
     qd:
       has_the_supervision_been_completed_satisfactorily: ¿Se completó la supervisión satisfactoriamente?
 
@@ -80,7 +80,7 @@ es:
       xamire_felony_friendly_jobs_network: Xamire Felony Friendly Jobs Network
       how_to_apply_for_a_job: Como solicitar un trabajo
     eligible1:
-      based_on_your_answers_you_are_eligible_to_apply_for_juvenile_expungement_in_illinois_under_subsection_1: Basado en sus respuestas, eres elegible para solicitar eliminación de antecedentes penales en Illinois bajo subdivisión 1.      
+      based_on_your_answers_you_are_eligible_to_apply_for_juvenile_expungement_in_illinois_under_subsection_1: Basado en sus respuestas, eres elegible para solicitar eliminación de antecedentes penales en Illinois bajo subdivisión 1.
       after_you_submit: Después que entregas este formulario, un abogado do LAF Chicago va intentar a contactarle usando el numero que usted dio.  Ellos van a tratar a ayudar a confirmar que eres elegible para eliminación de antecedentes penales.  Después de eso te ayudarán con el resto del proceso del solicitud.  Note que entregado este formulario de internet no crea un contrato abogado-cliente con LAF.
 
     notyet4:
@@ -99,7 +99,7 @@ es:
       3510_s_michigan_chicago_il_60653: 3510 S Michigan, Chicago IL 60653
       mon-fri_8am-12pm: lunes a viernes 8am-12pm
       if_you_were_arrested_in_a_different_county_in_il: "Si usted fue arrestado en un condado diferente en IL:"
-      search_for: Encuentre su código postal 
+      search_for: Encuentre su código postal
       here: aquí
       and_contact: y póngase en contacto con la organización de ayuda legal adecuada
 
@@ -110,7 +110,7 @@ es:
         Un registro de menores es una barrera para el empleo y la educación. Afortunadamente,
         los registros de menores se pueden borrar a través del proceso de "expungement".
         Sin embargo, aunque la mayoría de los registros de menores se puede borrar,
-      
+
       few_people_apply_for_juvenile_expungement: pocas personas solicitan eliminación de antecedentes penales de menores
       this_web: >
         Esta aplicación-web trata de aclarar el proceso de eliminación de antecedentes penales de menores, con
@@ -148,11 +148,11 @@ es:
       usually_a_court_date_is_scheduled_about_15_months_from_the_petition_date_after_a_judge_approves_the_petition_on_the_court_date_it_takes_about_2_months_for_the_police_to_erase_records_so_35_months_total_if_necessary_expungement_can_be_expedited_to_about_25_months_total: >-
         Usualmente, una cita de corte es programada alrededor de un mes y medio a partir de la fecha de la petición. Después que un juez aprueba la petición
         de la cita de corte, se tarda alrededor de 2 meses para que la policía borra los registros. Así, 3.5 meses en total. Si es necesario,
-        la eliminación de antecedentes penales puede ser acelerada a unos 2.5 meses en total.        
+        la eliminación de antecedentes penales puede ser acelerada a unos 2.5 meses en total.
       after_i_petition_for_juvenile_expungement_what_are_the_chances_that_my_petition_will_be_approved: >
         Después de la petición para eliminación de antecedentes penales de menores, ¿cuáles son las posibilidades de que sea aprobado mi petición?
-          
-      
+
+
       whether_your: Si se aprueba su petición es a criterio del juez. Sin embargo, en el pasado,
       almost_all: casi todas
       petitions: las peticiones han sido aprobados.
@@ -160,13 +160,13 @@ es:
     legalaid:
       legal_aid: Asistencia Legal
       juvenile_expungement_help_desk: la eliminación de antecedentes penales de menores Help Desk
-      at: en      
+      at: en
       this_is_a_free_service_&_there_are_lawyers_who_are_eager_to_help_you: Este es un servicio gratuito y hay abogados que están listos para ayudar!
       here: aquí
       contact: "Expedientes de menores en el Condado de Cook: Contactar a"
       if_you_were: >
         Si usted fue arrestado en un condado diferente en Illinois:
-        busque su código postal aquí 
+        busque su código postal aquí
       and_contact_the: y póngase en contacto con la organización de ayuda legal adecuada
 
     qc:
@@ -188,7 +188,7 @@ es:
       north_lawndale_employment_network: North Lawndale Employment Network
       xamire_felony_friendly_jobs_network: Xamire Felony Friendly Jobs Network
       how_to_apply_for_a_job: How to apply for a job
-              
+
     complicated:
       you_might_be_eligible_for_juvenile_expungement_call_the_juvenile_expungement_help_desk_at_312_229-6359_-_a_lawyer_will_be_able_to_look_up_your_records_for_free: >
         Usted puede ser elegible para la eliminación de antecedentes penales de menores!  Llame el Juvenile Expungement Help Desk al (312) 229-6359 - un abogado podrá
@@ -215,17 +215,28 @@ es:
       records_and: División de Servicios y Registros del Departamento de Policía de Chicago
       you_will_need: >
         Usted tendrá que obtener dos piezas de información del departamento de policía que arrestó a: (1) la fecha de la detención y (2) la carga de la detención.
-            
+
       if_a_police_department_tells_you_it_cannot_give_you_this_information_contact_the_juvenile_expungement_help_desk_at_312-229-6359: >
         Si un departamento de policía le dice que no puede darle información, comuníquese con la eliminación de antecedentes penales "Help Desk" al 312-229-6359
       after_you: >
-        Una vez que tenga la información de su arresto, pase al siguiente paso - 
+        Una vez que tenga la información de su arresto, pase al siguiente paso -
       applying_for_expungement: la solicitud de eliminación de antecedentes penales
+
     step3:
-      how_to_apply_for_juvenile_expungement_in_illinois: How to apply for juvenile expungement in Illinois
-      some_forms: some forms
-      if_you_were_arrested_in_cook_county_including_chicago:
+      how_to_apply_for_juvenile_expungement_in_illinois: Cómo solicitar el eliminación de antecedentes penales de menores en Illinois.
+      to_expunge: Para eliminar sus antecedentes penales de menores, tiene que llenar
+      some_forms: algunos formularios
+      a_petition: >
+        : (1) un "Petition to Expunge Juvenile Arrest Record", (2) un "Notice", y (3) un "Order of Expungement".  A continuación, se requiere enviar los
+        formularios a la oficina del secretario de la corte en el condado donde ocurrió el arresto.
+      if_you_were_arrested_in_cook_county_including_chicago: >
+        Si usted fue arrestado en el condado de Cook (incluyendo Chicago):
+      the: El
       juvenile_expungement_help_desk: Juvenile Expungement Help Desk
+      can_help_you: >
+        puede ayudar a llenar sus papeles. El servicio de asistencia se encuentra en el primer piso del Centro de Menores del Condado de Cook en 1100 S. Hamilton
+        en Chicago. Usted puede ingresar durante las horas de apertura: Lunes 9am a 4pm, martes 9am a 4pm, y los jueves de 9am a 12pm.
+      you_must_bring: >
+        Usted debe traer su información de arresto ('rap sheet' o fecha y cargo por cada arresto) para obtener ayuda!
       if_you_were_arrested_outside_of_cook_county: >
         If you were arrested outside of Cook County:
-                        
