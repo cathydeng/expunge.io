@@ -48,7 +48,6 @@ GEM
       activesupport (>= 3.2.13)
       rack (>= 1.4.5)
     hike (1.2.3)
-    i15r (0.5.2)
     i18n (0.6.9)
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
@@ -65,8 +64,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25.1)
     minitest (4.7.5)
-    missing_t (0.4.1)
-    multi_json (1.10.0)
+    multi_json (1.9.2)
     polyglot (0.3.4)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -89,7 +87,7 @@ GEM
       activesupport (= 4.0.4)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (10.3.1)
+    rake (10.3.0)
     rdoc (4.1.1)
       json (~> 1.4)
     ref (1.0.5)
@@ -139,16 +137,13 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   dimensions-rails
   heroku_rails_deflate
-  i15r
   jbuilder (~> 1.2)
   less-rails
-  missing_t
   rails (= 4.0.4)
   rails_12factor
   sass
   sass-rails (~> 4.0.0)
   sdoc
-  sprockets (~> 2.11.0)
   therubyracer
   turbolinks
   twitter-bootstrap-rails

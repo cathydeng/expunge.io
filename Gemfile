@@ -27,9 +27,6 @@ gem 'dimensions-rails'
 gem 'sass-rails', '~>4.0.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
-
-gem 'sprockets', '~>2.11.0'
-
 # more? feb 25
 gem 'less-rails'
 gem 'therubyracer', :require => 'v8'
@@ -38,12 +35,6 @@ gem 'twitter-bootstrap-rails'
 gem "sass", :require => 'sass'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
-# Translation rails dev tools
-group :development do
-  gem 'missing_t'
-  gem 'i15r'
-end
 
 group :production do
   gem 'rails_12factor'
