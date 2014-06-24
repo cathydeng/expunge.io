@@ -12,14 +12,14 @@ es:
       if_you_were_arrested_when_you_were_17_or_younger_you_probably_have_a_juvenile_record_-_these_records_do_not_go_away_on_their_own: Si fuiste arrestado a los 17 años o menos,es probable que tengas un registro de antecedentes penales de menores - estos registros no desaparecen por sí solos.
       good_news: La buena noticia es que la mayoría de los expedientes de los menores se pueden borrar a través de un proceso llamado
       juvenile_expungement: >
-        "Juvenile Expungement" (la eliminación de antecedentes penales de menores)!
+        "Juvenile Expungement" (eliminación de antecedentes penales de menores)!
       juvenile_expungement_1-2-3: >
         "Juvenile Expungement" 1-2-3
       1_find_out_if_youre_eligible_for_juvenile_expungement: "1. Averigüe si eres elegible para la eliminación de antecedentes penales de menores"
       start: EMPIEZA!
       2_get_your_arrest_information_rap_sheet: "2. Obtenga la información de su arresto (lista de antecedentes penales/rap sheet)"
       find_out_how: Entérese cómo
-      3_apply_for_expungement: "3. Solicite su registro do antecedentes penales de menores"
+      3_apply_for_expungement: "3. Solicite su registro de antecedentes penales de menores"
       get_paperwork: Obtenga trámites
 
     disclaimer:
@@ -45,7 +45,7 @@ es:
         Ten en cuenta que el proceso de borrar los antecedentes penales es según sea cada caso - si tienes varias arrestos o casos de
         corte, cada caso tiene que ser considerado separadamente.
     qb:
-      was_your_case_dismissed_thrown_out: Fue tu caso descartado (eliminado)?
+      was_your_case_dismissed_thrown_out: ¿Fue tu caso descartado (eliminado)?
 
     qd:
       has_the_supervision_been_completed_satisfactorily: ¿Se completó la supervisión satisfactoriamente?
@@ -55,7 +55,7 @@ es:
       18_and_older: 18 años o mayor
       under_18: menos de 18 años
     q3:
-      what_offense_were_you_found_delinquent_of: Te encontraron delincuente (culpable) de qué delito?
+      what_offense_were_you_found_delinquent_of: ¿Te encontraron culpable de qué delito?
       felony: Delito Mayor
       class_a_misdemeanor: Delito Clase A
       class_b_or_c_misdemeanor: Delito Clase B o Delito Clase C
@@ -77,14 +77,15 @@ es:
       possession_of_cannabis_up_to_25_grams: Posesión de cannibis (hasta 2.5 gramos)
 
     notyet1:
-      based_on_your_answers_you_are_not_yet_eligible_to_apply_for_juvenile_expungement_but_hold_tight_-_you_will_be_eligible_when_you_are_18_years_old: Basado en sus respuestas, no eres en este momento elegible para solicitar la eliminación de antecedentes penales.  Usted será elegible cuando usted tiene 18 años de edad.
+      based_on_your_answers_you_are_not_yet_eligible_to_apply_for_juvenile_expungement_but_hold_tight_-_you_will_be_eligible_when_you_are_18_years_old: Basado en sus respuestas, no eres en este momento elegible para solicitar la eliminación de antecedentes penales.  Usted será elegible cuando usted tenga 18 años de edad.
       there_are_still_options_for_you_now: "En este momento tienes opciones:"
       north_lawndale_employment_network: North Lawndale Employment Network
       xamire_felony_friendly_jobs_network: Xamire Felony Friendly Jobs Network
       how_to_apply_for_a_job: Como solicitar un trabajo
     eligible1:
       based_on_your_answers_you_are_eligible_to_apply_for_juvenile_expungement_in_illinois_under_subsection_1: Basado en sus respuestas, eres elegible para solicitar eliminación de antecedentes penales en Illinois bajo subdivisión 1.
-      after_you_submit: Después que entregas este formulario, un abogado do LAF Chicago va intentar a contactarle usando el numero que usted dio.  Ellos van a tratar a ayudar a confirmar que eres elegible para eliminación de antecedentes penales.  Después de eso te ayudarán con el resto del proceso del solicitud.  Note que entregado este formulario de internet no crea un contrato abogado-cliente con LAF.
+      after_you_submit: >
+        Después que entregas este formulario, un abogado do LAF Chicago va intentar a contactarle usando el numero que usted dio.  Ellos van a tratar de ayudar a confirmar si eres elegible para eliminación de antecedentes penales.  Después de eso te ayudarán con el resto del proceso del solicitud.  Nota: Enviando este formulario de internet no significa  un contrato abogado-cliente con LAF.
 
     notyet4:
       based_on_your_answers_you_are_not_yet_eligible_to_apply_for_juvenile_expungement_but_hold_tight_-_you_will_be_eligible_once_you_have_completed_supervision: Basado en sus respuestas, no eres en este momento elegible para solicitar la eliminación de antecedentes penales. Usted será elegible cuando termine su supervision.
@@ -97,7 +98,7 @@ es:
       juvenile_records: "Expedientes de menores en el Condado de Cook (incluyendo Chicago): Comuníquese con el"
       juvenile_expungement_help_desk: "El Centro de Auto Ayuda para la Eliminación de Antecedentes Penales de Menores"
       at_312: en el (312) 229-6359 y un abogado podría ayudarle.
-      to_get_information_about_an_arrest_in_chicago_date_age_juvenile_vs_adult_you_can_get_your_arrest_record_aka_rap_sheet_at: 'Para obtener información acerca de un arresto en Chicago (la fecha, edad, es juvenil o adulto, etc.) usted puede obtener su registro de arresto (también conocido como "rap sheet") en:'
+      to_get_information_about_an_arrest_in_chicago_date_age_juvenile_vs_adult_you_can_get_your_arrest_record_aka_rap_sheet_at: 'Para obtener información acerca de un arresto en Chicago (la fecha, edad, etc.) usted puede obtener su registro de arresto (también conocido como "rap sheet") en:'
       records_and_services_division_of_the_chicago_police_department: >
         "Records and Services Division of the Chicago Police Department"
       3510_s_michigan_chicago_il_60653: 3510 S Michigan, Chicago IL 60653
@@ -121,9 +122,9 @@ es:
         la esperanza de que más gente borre sus registros!
       the: La
       idea_for_this_app: idea de este aplicación-web
-      came_from: viene del impresionante
-      of_the: de la
-      interested_in_learning_more_about_juvenile_justice_&_expungement_check_out_these_links: "Interesado en aprender más acerca de la justicia de menores y eliminación de antecedentes penales? Prueba los siguientes enlaces:"
+      came_from: viene de la iniciativa
+      of_the: de
+      interested_in_learning_more_about_juvenile_justice_&_expungement_check_out_these_links: "¿Estas interesado en aprender más acerca de la justicia de menores y eliminación de antecedentes penales? Prueba los siguientes enlaces:"
       why_is_it_so_hard_to_expunge_juvenile_records_in_cook_county_wbez:
       boxed_in_how_a_criminal_record_keeps_you_unemployed_for_life_the_nation:
       expungement_vocabulary_-_explained_on_vine: Expungement vocabulary - explained on Vine
@@ -135,7 +136,7 @@ es:
       frequently_asked_questions: >
         "FAQs" - Preguntas Frecuentes
       after_i_find_out_i_am_eligible_to_apply_for_juvenile_expungement_in_illinois_what_do_i_have_to_do: >
-        Después de que descubro que soy elegible para solicitar la eliminación de
+        Después que descubro que soy elegible para solicitar la eliminación de
         antecedentes penales de menores en Illinois, ¿qué tengo que hacer?
       remember_that_free_legal_aid_is_available_to_help_you_complete_the_process_use_it_to_petition_for_juvenile_expungement_you_will_need_to: >
         Recuerde que asistencia legal gratuita está disponible para ayudarle a completar el
@@ -147,12 +148,12 @@ es:
       for_records_in_the_city_of_chicago_go_to: Para registros de la cuidad de Chicago, vaya a
       records_and: División de Servicios y Registros del Departamento de Policía de Chicago
       mon-fri_8am-3pm: lunes a viernes, de 8am-3pm
-      how_much_does_juvenile_expungement_cost: Cuánto cuesta la eliminación de antecedentes penales de menores?
-      it_costs: Cuesta $124 para borrar un solo arresto, más un cargo de $64 para cada detención adicional. Sin embargo, muchas personas califican para una exención de pago que hace gratis la eliminación de antecedentes penales.
-      how_long_does_the_process_take: Cuánto tiempo toma el proceso?
+      how_much_does_juvenile_expungement_cost: ¿Cuánto cuesta la eliminación de antecedentes penales de menores?
+      it_costs: El costo es $124 para borrar un solo arresto, más un cargo de $64 para cada detención adicional. Sin embargo, muchas personas califican para una exención de pago y puede resultare gratis la eliminación de antecedentes penales.
+      how_long_does_the_process_take: ¿Cuánto tiempo toma el proceso?
       usually_a_court_date_is_scheduled_about_15_months_from_the_petition_date_after_a_judge_approves_the_petition_on_the_court_date_it_takes_about_2_months_for_the_police_to_erase_records_so_35_months_total_if_necessary_expungement_can_be_expedited_to_about_25_months_total: >-
         Usualmente, una cita de corte es programada alrededor de un mes y medio a partir de la fecha de la petición. Después que un juez aprueba la petición
-        de la cita de corte, se tarda alrededor de 2 meses para que la policía borra los registros. Así, 3.5 meses en total. Si es necesario,
+        de la cita de corte, se tarda alrededor de 2 meses para que la policía borre los registros. Así, 3.5 meses en total. Si es necesario,
         la eliminación de antecedentes penales puede ser acelerada a unos 2.5 meses en total.
       after_i_petition_for_juvenile_expungement_what_are_the_chances_that_my_petition_will_be_approved: >
         Después de la petición para eliminación de antecedentes penales de menores, ¿cuáles son las posibilidades de que sea aprobado mi petición?
@@ -171,16 +172,15 @@ es:
       contact: "Expedientes de menores en el Condado de Cook: Contactar a"
       if_you_were: >
         Si usted fue arrestado en un condado diferente en Illinois:
-        busque su código postal aquí
+        busque su código postal
       and_contact_the: y póngase en contacto con la organización de ayuda legal adecuada
 
     qc:
-      what_happened_in_your_case: What happened in your case?
-      qc:
-      what_happened_in_your_case: Que ocurrió en tu caso?
+
+      what_happened_in_your_case: ¿Que ocurrió en tu caso?
       found_not_delinquent: declarado no delincuente (no culpable)
       got_supervision: fui vigilado (bajo supervisión)
-      found_delinquent: declarado/se declaró delincuente (culpable)
+      found_delinquent: declarado/se declaró culpable
       if_you_had_probation_or_spent_time_in_the_department_of_juvenile_justice_you_were_found_guilty_of_something_if_you_spent_time_in_the_juvenile_temporary_detention_center_audy_home_you_were_not_necessarily_found_guilty_of_anything: >
         Si usted tenía la libertad condicional or pasó un tiempo en el Departamento de Justicia de Menores, sí fuiste declarado culpable (de algo).  Si pasó un tiempo en Juvenile Temporary Detention Center (Audy Home), no necesariamente fuiste declarado culpable de alguna cosa.
 
@@ -219,7 +219,7 @@ es:
         Si usted fue arrestado fuera de Chicago:
       records_and: División de Servicios y Registros del Departamento de Policía de Chicago
       you_will_need: >
-        Usted tendrá que obtener dos piezas de información del departamento de policía que arrestó a: (1) la fecha de la detención y (2) la carga de la detención.
+        Usted tendrá que obtener la siguiente información del departamento de policía que arrestó a: (1) la fecha de la detención y (2) los cargos de la detención.
 
       if_a_police_department_tells_you_it_cannot_give_you_this_information_contact_the_juvenile_expungement_help_desk_at_312-229-6359: >
         Si un departamento de policía le dice que no puede darle información, comuníquese con El Centro de Auto Ayuda para la Eliminación de Antecedentes Penales de Menores al 312-229-6359
@@ -232,7 +232,7 @@ es:
       to_expunge: Para eliminar sus antecedentes penales de menores, tiene que llenar
       some_forms: algunos formularios
       a_petition: >
-        : (1) un "Petition to Expunge Juvenile Arrest Record", (2) un "Notice", y (3) un "Order of Expungement".  A continuación, se requiere enviar los
+        : (1) un "Petition to Expunge Juvenile Arrest Record", (2) un "Notice", y (3) una "Order of Expungement".  A continuación, se requiere enviar los
         formularios a la oficina del secretario de la corte en el condado donde ocurrió el arresto.
       if_you_were_arrested_in_cook_county_including_chicago: >
         Si usted fue arrestado en el condado de Cook (incluyendo Chicago):
@@ -243,7 +243,7 @@ es:
         en Chicago. Usted puede ingresar durante las horas de apertura: Lunes 9am a 4pm, martes 9am a 4pm, y los jueves de 9am a 12pm.
       you_must_bring: >
         Usted debe traer su información de arresto ('rap sheet' o fecha y cargo por cada arresto) para obtener ayuda!
-      if_you_have_any:  Si usted tiene algunas preguntas, llame el
+      if_you_have_any:  Si usted tiene algunsa preguntas, llame el
       juvenile_expungement_help_desk: >
         "Juvenile Expungement Help Desk"
       at_number: al 312-229-6359
