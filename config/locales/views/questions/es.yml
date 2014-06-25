@@ -6,6 +6,15 @@ es:
       n: "No"
       im_not_sure: No estoy seguro
 
+    notyetmore:
+      remember_your_juvenile_record_is_not_a_criminal_record_or_criminal_conviction:
+      you_do_not_have_to_reveal_your_juvenile_record_on_job_applications_that_ask_about_criminal_convictions_-_even_if_you_were_found_guilty_or_pled_guilty_in_juvenile_court: You do not have to reveal your juvenile record on job applications that ask about "criminal convictions
+      sealed: sealed
+      even_though_your: Even though your juvenile record can
+      unlike_your:
+      if_you_are_told_you_didnt_get_a_job_and_you_think_your_juvenile_record_was_seen_and_considered_call_the_juvenile_expungement_help_desk_at_312-229-6359: If you are told you didn
+      if_an_employer_does_not_hire_you_because_of_a_background_check_they_are_required_to_give_you_a_copy_of_the_background_check_if_an_employer_does_not_do_that_ask_for_a_copy_and_call_the_juvenile_expungement_help_desk_at_312-229-6359:
+
     index:
       welcome_to_expungeio_for_illinois: >
         Bienvenido a "Expunge.io" para Illinois
@@ -78,10 +87,10 @@ es:
 
     notyet1:
       based_on_your_answers_you_are_not_yet_eligible_to_apply_for_juvenile_expungement_but_hold_tight_-_you_will_be_eligible_when_you_are_18_years_old: Basado en sus respuestas, no eres en este momento elegible para solicitar la eliminación de antecedentes penales.  Usted será elegible cuando usted tenga 18 años de edad.
-      there_are_still_options_for_you_now: "En este momento tienes opciones:"
-      north_lawndale_employment_network: North Lawndale Employment Network
-      xamire_felony_friendly_jobs_network: Xamire Felony Friendly Jobs Network
-      how_to_apply_for_a_job: Como solicitar un trabajo
+
+    notyet2:
+    notyet3:
+
     eligible1:
       based_on_your_answers_you_are_eligible_to_apply_for_juvenile_expungement_in_illinois_under_subsection_1: Basado en sus respuestas, eres elegible para solicitar eliminación de antecedentes penales en Illinois bajo subdivisión 1.
       after_you_submit: >
@@ -89,10 +98,6 @@ es:
 
     notyet4:
       based_on_your_answers_you_are_not_yet_eligible_to_apply_for_juvenile_expungement_but_hold_tight_-_you_will_be_eligible_once_you_have_completed_supervision: Basado en sus respuestas, no eres en este momento elegible para solicitar la eliminación de antecedentes penales. Usted será elegible cuando termine su supervision.
-      there_are_still_options_for_you_now: "En este momento tienes opciones:"
-      north_lawndale_employment_network: North Lawndale Employment Network
-      xamire_felony_friendly_jobs_network: Xamire Felony Friendly Jobs Network
-      how_to_apply_for_a_job: Como solicitar un trabajo
 
     notsure:
       juvenile_records: "Expedientes de menores en el Condado de Cook (incluyendo Chicago): Comuníquese con el"
