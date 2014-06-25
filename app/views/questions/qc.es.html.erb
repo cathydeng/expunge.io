@@ -1,0 +1,14 @@
+<div class="center">
+
+  <h2><%= I18n.t("questions.qc.what_happened_in_your_case", :default => "What happened in your case?") %></h2>
+
+
+  <%= link_to(I18n.t("questions.qc.found_not_delinquent", :default => "Found not guilty"), q2_path, :method => "get", :class => "btn btn-large")%>
+  <%= link_to(I18n.t("questions.qc.got_supervision", :default => "Got supervision"), qd_path, :method => "get", :class => "btn btn-large") %>
+  <%= link_to(I18n.t("questions.qc.found_delinquent", :default => "Found or pleaded guilty"), q3_path, :method => "get", :class => "btn btn-large") %>
+  <br><br>
+  <%= link_to(I18n.t("questions.simple.im_not_sure", :default => "I'm not sure"), notsure_path, :method => "get", :class => "btn btn-large") %>
+  <br><br>
+  <h4><%= I18n.t("questions.qc.if_you_had_probation_or_spent_time_in_the_department_of_juvenile_justice_you_were_found_guilty_of_something_if_you_spent_time_in_the_juvenile_temporary_detention_center_audy_home_you_were_not_necessarily_found_guilty_of_anything", :default => "If you had probation or spent time in the Department of Juvenile Justice, you were found guilty of something. If you spent time in the Juvenile Temporary Detention Center (Audy Home), you were not necessarily found guilty of anything.") %></h4>
+
+</div>

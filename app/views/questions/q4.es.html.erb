@@ -1,0 +1,8 @@
+<div class="center">
+
+<h2><%= I18n.t("questions.q4.how_old_are_you", :default => "How old are you?") %></h2>
+
+
+<%= link_to("18 & older", eligible2_path, :method => "get", :class => "btn btn-large")%>
+<%= link_to("under 18", notyet1_path, :method => "get", :class => "btn btn-large") %>
+</div>
