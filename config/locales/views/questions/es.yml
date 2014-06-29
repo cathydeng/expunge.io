@@ -159,18 +159,29 @@ es:
       after_i_find_out_i_am_eligible_to_apply_for_juvenile_expungement_in_illinois_what_do_i_have_to_do: >
         Después que descubro que soy elegible para solicitar la eliminación de
         antecedentes penales de menores en Illinois, ¿qué tengo que hacer?
-      remember_that_free_legal_aid_is_available_to_help_you_complete_the_process_use_it_to_petition_for_juvenile_expungement_you_will_need_to: >
-        Recuerde que asistencia legal gratuita está disponible para ayudarle a completar el
+      remember_that: >
+        Recuerde que
+
+      free_legal_aid: >
+        asistencia legal gratuita
+
+      is_available_to_help_you_complete_the_process_use_it_to_petition_for_juvenile_expungement_you_will_need_to: >
+        está disponible para ayudarle a completar el
         proceso! Usenlo! Para solicitar la eliminación de antecedentes penales de menores, usted necesitará:
+
       get_a_copy_of_your_rap_sheet:  Obtener una copia de su "RAP sheet", (registro)
       fill_out_a_petition_form: Llenar un formulario de petición
       submit_your_petition_to_the_appropriate_court:  Enviar su petición a la corte adecuada
-      where_do_i_get_my_rap_sheet: ¿Donde puedo obtener mi "RAP sheet", (registro)?
-      for_records_in_the_city_of_chicago_go_to: Para registros de la cuidad de Chicago, vaya a
-      records_and: División de Servicios y Registros del Departamento de Policía de Chicago
-      mon-fri_8am-3pm: lunes a viernes, de 8am-3pm
+
+      how_do_i_get_my_rap_sheet: ¿Cómo puedo obtener mi "RAP sheet", (registro)?
+      you_will: >-
+        Usted tendrá que obtener la información de su detención en el departamento de la policía que lo arrestó
+
+      click_here_for_instructions: Haz clic aquí para obtener instrucciones
       how_much_does_juvenile_expungement_cost: ¿Cuánto cuesta la eliminación de antecedentes penales de menores?
-      it_costs: El costo es $124 para borrar un solo arresto, más un cargo de $64 para cada detención adicional. Sin embargo, muchas personas califican para una exención de pago y puede resultare gratis la eliminación de antecedentes penales.
+
+      it_costs: >
+        El costo es $124 para borrar un solo arresto, más un cargo de $64 para cada detención adicional - (esto incluye includes gastos administrativos a la corte y "expungement fee" de la policía estatal de Illinois). Sin embargo, muchas personas califican para una exención de pago y puede resultare gratis la eliminación de antecedentes penales
       how_long_does_the_process_take: ¿Cuánto tiempo toma el proceso?
       usually_a_court_date_is_scheduled_about_15_months_from_the_petition_date_after_a_judge_approves_the_petition_on_the_court_date_it_takes_about_2_months_for_the_police_to_erase_records_so_35_months_total_if_necessary_expungement_can_be_expedited_to_about_25_months_total: >-
         Usualmente, una cita de corte es programada alrededor de un mes y medio a partir de la fecha de la petición. Después que un juez aprueba la petición
@@ -180,9 +191,9 @@ es:
         Después de la petición para eliminación de antecedentes penales de menores, ¿cuáles son las posibilidades de que sea aprobado mi petición?
 
 
-      whether_your: Si se aprueba su petición es a criterio del juez. Sin embargo, en el pasado,
+      whether_your: Si se aprueba su petición es a criterio del juez. Sin embargo, en el pasado
       almost_all: casi todas
-      petitions: las peticiones han sido aprobados.
+      petitions: las peticiones han sido aprobados
 
     legalaid:
       legal_aid: Asistencia Legal
