@@ -55,9 +55,9 @@ Expungio::Application.routes.draw do
   get '/agearrested', to: 'questions#agearrested'
   get '/juvrecord', to: 'questions#juvrecord'
   get '/yeararrested', to: 'questions#yeararrested'
-  get '/adultorjuv', to: 'questions#adultorjuv'
+  get '/maybejuv', to: 'questions#maybejuv'
   get '/qtrial', to: 'questions#qtrial'
-  get '/adultrecord', to: 'questions#adultrecord'
+  get '/notjuv', to: 'questions#notjuv'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
