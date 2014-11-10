@@ -1,185 +1,34 @@
 /*
- *= require bootstrap_and_overrides
  *= require_tree .
  *= require_self
  */
 
 
 /* General */
-html, body {
-  height: 100%;
+p{
+  font-size: 20px;
+}
+
+.brand {
+  background: image-url('logo.png') 0 0 no-repeat;
+  padding-top: 50px;
+  width: 137px;
+  height: 41px;
+  margin: 10px 10px 0 0;
+  text-indent: -999999px;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #C8F7C5;
+  font-size: 20px;
+}
+.footer a{
+  font-size: 1.4em;
 }
 
 /*light teal was #DAEDE5, light blue #B6E3E3, lighter blue azure, greenish #A4DBC2*/
-body {
-  background: #FFFFFF;
-  font-family: 'Lato', sans-serif;
-  -webkit-text-stroke: 0.1px;
-
-  @media screen and (max-width: 480px) {
-
-    h2, h3 {
-      line-height: 1.2em;
-    }
-  }
-}
-
-button {
-  background-color: #FFB224;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-  border-radius: 6px;
-  -webkit-text-stroke: 0px;
-
-}
-
-.step1 {
-  background-color: grey;
-  margin: 4px 0 4px 0;
-}
-
-.step1:hover {
-  background: black;
-}
-
-#action-steps h4 { min-height: 60px;}
-
-button:hover {
-  background: #E3A634;
-}
-
-
-a {
-  color: #1abc9c;
-
-  &:hover {
-    color: #148F77;
-    border-bottom: 1px solid #148F77;
-    text-decoration: none;
-  }
-}
-
-#big-text{
-  font-size:2.0em;
-  line-height:1.2em;
-}
-
-#medium-text{
-  font-size:1.4em;
-  line-height:1.2em;
-}
-
-.btn{
-  font-size:2.0em;
-  line-height:1.2em;
-}
-
-p {
-  margin: 0 0 20px 0;
-  font-size: 1.2em;
-}
-
-hr {
-  border-color: #333;
-}
-
-/* Layout */
-#content {
-  padding-top: 60px;
-
-  @media screen and (max-width: 979px) {
-    padding-top: 0;
-  }
-}
-
-
-.well{
-  background-color: #EDF5F7;
-}
-
-/* Sticky footer */
-.wrapper {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -61px; /* the bottom margin is the negative value of the footer's height */
-}
-
-footer,
-.push {
-  height: 61px; /* .push must be the same height as .footer */
-}
-
-/* Header */
-.topbar{
-  // the salmon color was D97A55. teal #48BDAD
-  background: #1abc9c;
-  -webkit-text-stroke: 0px;
-
-  @media screen and (max-width: 979px) {
-    padding: 0 20px;
-  }
-
-  @media screen and (max-width: 480px) {
-
-    .brand {
-      float: none;
-      display: inline-block;
-    }
-  }
-
-  .nav > li > a{
-    text-shadow: none;
-    color: white;
-    border: none;
-
-    @media screen and (max-width: 480px) {
-      padding: 0 10px 10px;
-    }
-  }
-
-  .brand {
-    padding: 0;
-    width: 137px;
-    height: 41px;
-    margin: 0 20px 0 0;
-    text-indent: -999999px;
-    background: image-url('logo.png') 0 0 no-repeat;
-    border: none;
-  }
-}
-
-/* Content */
-.page-header {
-  border: none;
-  color: #166B92;
-  margin: 20px 0 10px 0;
-}
-
-/* Footer */
-footer {
-  border-top: 1px solid #2f756b;
-  height: 60px;
-
-  @media screen and (max-width: 979px) {
-    &,
-    .text-right {
-      text-align: left;
-    }    
-  }
-
-  .row {
-    padding: 10px 0;
-  }
-
-  iframe {
-    vertical-align: top;
-    &.twitter-share-button { margin-left: 15px; }
-  }
-}
