@@ -3,12 +3,14 @@
   <head>
     <title>Expunge.io</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <%= stylesheet_link_tag "bootstrap.min", media: "all", "data-turbolinks-track" => true %>
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
     <!--favicon-->
     <%= favicon_link_tag 'favicon.png' %>
 
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!--[if lte IE 7]>
     <style type="text/css">
@@ -22,27 +24,33 @@
   </head>
   <body>
     <div class="wrapper">
-      <header role="banner">
-        <nav class="navbar navbar-fixed-top bs-docs-nav topbar" role="navigation">
-          <div class="container topbar">
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <a class="brand" href="/">Expunge.io</a>
-            <ul class="nav navbar-nav pull-right">
-              <li><%= link_to I18n.t("layouts.application.home", :default => "Home"), :action => "index" %></li>
-              <li><%= link_to I18n.t("layouts.application.about", :default => "About"), :action => "about" %></li>
-              <li><%= link_to I18n.t("layouts.application.faqs", :default => "FAQs"), :action => "FAQ" %></li>
-              <li><%= link_to I18n.t("layouts.application.legal_aid", :default => "LEGAL AID!"), :action => "legalaid" %></li>
-              <li>
-                <% if I18n.locale == :es %>
-                  <%= link_to "English", set_language_english_path %>
-                  <% elsif I18n.locale == :en %>
-                  <%= link_to "Español", set_language_spanish_path %>
-                <% end %>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+      <div class="navbar navbar-inverse" style="border-radius: 0px">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse navbar-inverse-collapse">
+          <ul class="nav navbar-nav">
+            <li class="brand"></li>
+            <li><a href="/"><%=I18n.t("layouts.application.home", :default => "Home")%></a></li>
+            <li><a href="/about"><%=I18n.t("layouts.application.about", :default => "About")%></a></li>
+            <li><a href="/FAQ"><%=I18n.t("layouts.application.faqs", :default => "FAQs")%></a></li>
+            <li>
+              <% if I18n.locale == :es %>
+                <%= link_to "English", set_language_english_path %>
+              <% elsif I18n.locale == :en %>
+                <%= link_to "Español", set_language_spanish_path %>
+              <% end %>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/legalaid"><%=I18n.t("layouts.application.legal_aid", :default => "LEGAL AID!")%></a></li>
+          </ul>
+        </div>
+      </div>
 
       <div id="content" class="container">
         <%= yield %>
@@ -53,22 +61,20 @@
       <div class="push"></div>
     </div>
 
-    <footer>
+    <div class="footer">
       <div class="container">
         <div class="row" style="font-size: .9em">
-          <div class="span10" style="line-height:140%">
+          <span>
+          <div>
+            Know someone with a juvenile record? Help out by sharing expunge.io!&nbsp&nbsp&nbsp
+                <a href="https://twitter.com/intent/tweet?text=If%20you%20have%20a%20juvenile%20record%2C%20you%20may%20be%20able%20to%20expunge%20it.%20Check%20out%20%23expungeio!&tw_p=tweetbutton&url=http%3A%2F%2Fexpunge.io"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/sharer/sharer.php?app_id=309437425817038&sdk=joey&u=http%3A%2F%2Fexpunge.io" target="_blank"><i class="fa fa-facebook"></i></a>
 
-            Created by <a href="http://twitter.com/cthydng" target="_blank">Cathy Deng</a> | Code on <a href="https://github.com/cathydeng/expunge.io" target="_blank">GitHub</a> | Translation by <a href="https://github.com/renemarcelo?tab=activity" target="_blank">Rene M. Paccha</a><br>
-            Dreamt up by <a href="https://twitter.com/MCJJustice" target="_blank">the Mikva Juvenile Justice Council</a> & Hosted by <a href="http://www.smartchicagocollaborative.org/">Smart Chicago</a>
           </div>
-          <div class="span2">
-            <a href="https://twitter.com/intent/tweet?text=If%20you%20have%20a%20juvenile%20record%2C%20you%20may%20be%20able%20to%20expunge%20it.%20Check%20out%20%23expungeio!&tw_p=tweetbutton&url=http%3A%2F%2Fexpunge.io"><%= image_tag "twitter.png" %></a>
-
-            <a href="https://www.facebook.com/sharer/sharer.php?app_id=309437425817038&sdk=joey&u=http%3A%2F%2Fexpunge.io" target="_blank"><%= image_tag "fb.png" %></a>
-          </div>
+          <span>
         </div>
       </div>
-    </footer>
+    </div>
 
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
