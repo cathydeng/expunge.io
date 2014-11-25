@@ -5,10 +5,13 @@
 
 
 /* General */
+html{
+  min-height: 100%;
+  position: relative;
+}
 #content {
-   min-height: 400px;
-   margin-bottom: 100px;
    clear: both;
+   min-height: 500px;
 }
 
 p{
@@ -24,7 +27,6 @@ p{
   text-indent: -999999px;
 }
 
-
 .footer {
   position: absolute;
   bottom: 0;
@@ -32,6 +34,7 @@ p{
   height: 40px;
   background-color: #C8F7C5;
   font-size: 20px;
+  display: block;
 }
 .footer a{
   font-size: 1.4em;

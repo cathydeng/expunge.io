@@ -23,7 +23,7 @@
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
+
       <div class="navbar navbar-inverse" style="border-radius: 0px">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
@@ -52,17 +52,13 @@
         </div>
       </div>
 
-    <div id="content" class="container">
-      <%= yield %>
-    </div>
-
-    <div style="height:30px"></div>
-
-    <div class="push"></div>
-    </div>
+      <div id="content" class="container">
+        <%= yield %>
+      </div>
 
 
-    <div class="footer">
+
+    <footer class="footer">
       <div class="container">
         <div class="row" style="font-size: .9em">
           <span>
@@ -75,7 +71,7 @@
           <span>
         </div>
       </div>
-    </div>
+    </footer>
 
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
