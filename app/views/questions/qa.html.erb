@@ -3,10 +3,8 @@
 <h2>After you were arrested, did you see a judge in court?</h2>
 <p>Note: the expungement process is per case - if you have multiple arrests or court cases, each case must be considered separately.</p>
 
-
-<%= link_to("No", q2_path, :method => "get", :class => "btn btn-large")%>
-<%= link_to("Yes", qb_path, :method => "get", :class => "btn btn-large") %>
-<br><br>
-<%= link_to("I'm not sure", notsure_path, :method => "get", :class => "btn btn-large") %>
+<a href="/q2" class="btn btn-success">No</a>
+<a href="/qb" class="btn btn-success">Yes</a>
+<br><br><a href="/notsure" class="btn btn-default">I'm not sure</a>
 
 </div>

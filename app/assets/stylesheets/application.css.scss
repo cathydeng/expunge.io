@@ -5,8 +5,14 @@
 
 
 /* General */
+#content {
+   min-height: 400px;
+   margin-bottom: 100px;
+   clear: both;
+}
+
 p{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .brand {
@@ -29,6 +35,16 @@ p{
 }
 .footer a{
   font-size: 1.4em;
+}
+
+.small p{
+  font-size: 14px;
+}
+
+
+/* home page styling */
+#action-steps .well{
+  height: 160px;
 }
 
 /*light teal was #DAEDE5, light blue #B6E3E3, lighter blue azure, greenish #A4DBC2*/

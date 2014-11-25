@@ -3,11 +3,11 @@
 <h2>What happened in your case?</h2>
 
 
-<%= link_to("Found not guilty", q2_path, :method => "get", :class => "btn btn-large")%>
-<%= link_to("Got supervision", qd_path, :method => "get", :class => "btn btn-large") %>
-<%= link_to("Found or pleaded guilty", q3_path, :method => "get", :class => "btn btn-large") %>
-<br><br>
-<%= link_to("I'm not sure", notsure_path, :method => "get", :class => "btn btn-large") %>
+<a href="/q2" class="btn btn-success">Found not guilty</a>
+<a href="/qd" class="btn btn-success">Got supervision</a>
+<a href="/q3" class="btn btn-success">Found or pleaded guilty</a>
+<br><br><a href="/notsure" class="btn btn-default">I'm not sure</a>
+
 <br><br>
 <h4>If you had probation or spent time in the Department of Juvenile Justice, you were found guilty of something. If you spent time in the Juvenile Temporary Detention Center (Audy Home), you were not necessarily found guilty of anything.</h4>
 

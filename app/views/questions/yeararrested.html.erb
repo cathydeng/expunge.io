@@ -2,11 +2,9 @@
 
 <h2>When were you arrested?</h2>
 
-
-<%= link_to("2014", juvrecord_path, :method => "get", :class => "btn btn-large")%>
-<%= link_to("2010-2013", maybejuv_path, :method => "get", :class => "btn btn-large") %>
-<%= link_to("2009 & earlier", notjuv_path, :method => "get", :class => "btn btn-large") %>
-<br><br>
-<%= link_to("I'm not sure", notsure_path, :method => "get", :class => "btn btn-large") %>
+<a href="/juvrecord" class="btn btn-success">2014</a>
+<a href="/maybejuv" class="btn btn-success">2010-2013</a>
+<a href="/notjuv" class="btn btn-danger">2009 & earlier</a><br><br>
+<a href="/notsure" class="btn btn-default">I'm not sure</a>
 
 </div>

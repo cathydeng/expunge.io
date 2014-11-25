@@ -3,9 +3,8 @@
 <h2>Were you tried as an adult? Some juveniles cases can be tried in adult court if they are serious.</h2>
 <br>
 
-<%= link_to("No", qc_path, :method => "get", :class => "btn btn-large")%>
-<%= link_to("Yes", notjuv_path, :method => "get", :class => "btn btn-large") %>
-<br><br>
-<%= link_to("I'm not sure", notsure_path, :method => "get", :class => "btn btn-large") %>
+<a href="/qc" class="btn btn-success">No</a>
+<a href="/notjuv" class="btn btn-danger">Yes</a>
+<br><br><a href="/notsure" class="btn btn-default">I'm not sure</a>
 
 </div>

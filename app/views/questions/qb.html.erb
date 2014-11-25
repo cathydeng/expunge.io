@@ -3,9 +3,8 @@
 <h2>Was your case dismissed (thrown out)?</h2>
 <br>
 
-<%= link_to("No", qtrial_path, :method => "get", :class => "btn btn-large")%>
-<%= link_to("Yes", q2_path, :method => "get", :class => "btn btn-large") %>
-<br><br>
-<%= link_to("I'm not sure", notsure_path, :method => "get", :class => "btn btn-large") %>
+<a href="/q2" class="btn btn-success">Yes</a>
+<a href="/qtrial" class="btn btn-success">No</a>
+<br><br><a href="/notsure" class="btn btn-default">I'm not sure</a>
 
 </div>

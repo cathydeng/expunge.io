@@ -1,37 +1,35 @@
-<div class="page-header">
-  <h1><%= I18n.t("questions.index.welcome_to_expungeio_for_illinois", :default => "Erase your Illinois juvenile record!") %></h1>
-</div>
+<h1>
+  <%= I18n.t("questions.index.welcome_to_expungeio_for_illinois", :default => "Erase your Illinois juvenile record!") %>
+</h1>
 
+<br>
 <p><%= I18n.t("questions.index.if_you_were_arrested_when_you_were_17_or_younger_you_probably_have_a_juvenile_record_-_these_records_do_not_go_away_on_their_own", :default => "If you were arrested in IL when you were under 18, you probably have a juvenile record.") %></p>
 <p><%= I18n.t("questions.index.good_news", :default => "A juvenile record does not go away on its own, and you're better off without one. The good news: most juvenile records can be erased through a process called") %>  <%= I18n.t("questions.index.juvenile_expungement", :default => "juvenile expungement.") %></p>
 
+<h2><%= I18n.t("questions.index.juvenile_expungement_1-2-3", :default => "Juvenile Expungement 1-2-3") %></h2><br>
 
-  <div class="page-header">
-    <h1><%= I18n.t("questions.index.juvenile_expungement_1-2-3", :default => "Juvenile Expungement 1-2-3") %></h1>
+<div class="row-fluid" id='action-steps'>
+
+  <div class="col-xs-4">
+    <div class='well'>
+      <p><%= I18n.t("questions.index.1_find_out_if_youre_eligible_for_juvenile_expungement", :default => "1. Find out if you're eligible!") %></p>
+        <a href="/disclaimer" class="btn btn-warning"><%=I18n.t("questions.index.start", :default => "START")%></a>
+    </div>
   </div>
 
-  <div class="row-fluid" id='action-steps'>
-
-    <div class="col-xs-4">
-      <div class='well'>
-        <p><%= I18n.t("questions.index.1_find_out_if_youre_eligible_for_juvenile_expungement", :default => "1. Find out if you're eligible!") %></p>
-          <a href="/disclaimer" class="btn btn-warning"><%=I18n.t("questions.index.start", :default => "START")%></a>
-      </div>
+  <div class="col-xs-4">
+    <div class='well'>
+      <p><%= I18n.t("questions.index.2_get_your_arrest_information_rap_sheet", :default => "2. Get your arrest information (rap sheet)") %></p>
+      <a href="/step2"><%=I18n.t("questions.index.find_out_how", :default => "Find Out How")%>&nbsp<i class="fa fa-chevron-right"></i></a>
     </div>
+  </div>
 
-    <div class="col-xs-4">
-      <div class='well'>
-        <p><%= I18n.t("questions.index.2_get_your_arrest_information_rap_sheet", :default => "2. Get your arrest information (rap sheet)") %></p>
-        <a href="/step2"><%=I18n.t("questions.index.find_out_how", :default => "Find Out How")%>&nbsp<i class="fa fa-chevron-right"></i></a>
-      </div>
-    </div>
-
-    <div class="col-xs-4">
-      <div class='well'>
-        <p><%= I18n.t("questions.index.3_apply_for_expungement", :default => "3. Apply for expungement") %></p>
-        <a href="/step3"><%=I18n.t("questions.index.get_paperwork", :default => "Get Paperwork")%>&nbsp<i class="fa fa-chevron-right"></i></a>
-      </div>
-
+  <div class="col-xs-4">
+    <div class='well'>
+      <p><%= I18n.t("questions.index.3_apply_for_expungement", :default => "3. Apply for expungement") %></p>
+      <a href="/step3"><%=I18n.t("questions.index.get_paperwork", :default => "Get Paperwork")%>&nbsp<i class="fa fa-chevron-right"></i></a>
     </div>
 
   </div>
+
+</div>

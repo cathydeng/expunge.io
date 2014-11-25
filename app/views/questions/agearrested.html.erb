@@ -2,11 +2,9 @@
 
 <h2>How old were you when you were arrested?</h2>
 
-
-<%= link_to("16 & under", juvrecord_path, :method => "get", :class => "btn btn-large")%>
-<%= link_to("17", yeararrested_path, :method => "get", :class => "btn btn-large") %>
-<%= link_to("18 & over", notjuv_path, :method => "get", :class => "btn btn-large") %>
-<br><br>
-<%= link_to("I'm not sure", notsure_path, :method => "get", :class => "btn btn-large") %>
+<a href="/juvrecord" class="btn btn-success">16 & under</a>
+<a href="/yeararrested" class="btn btn-success">17</a>
+<a href="/notjuv" class="btn btn-danger">18 & over</a><br><br>
+<a href="/notsure" class="btn btn-default">I'm not sure</a>
 
 </div>
