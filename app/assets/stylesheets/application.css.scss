@@ -90,3 +90,23 @@ h1, h2{
   border: 0px;
   outline: none;
 }
+
+
+/* phones */
+@media only screen and (max-width : 480px) {
+  h1{
+    font-size: 1.8em;
+  }
+  h2{
+    font-size: 1.25em;
+  }
+  #action-steps .well{
+    height: 110px;
+    padding: 14px;
+  }
+  .align-bottom{
+    position: absolute;
+    bottom: 14px;
+  }
+
+}
