@@ -51,6 +51,8 @@ h1, h2{
 .navbar-toggle{
   margin: 8px 8px 8px 0px;
   padding: 8px 8px 8px 8px;
+  background-color: #2D908F;
+  border: none;
 }
 
 .align-bottom{
@@ -94,10 +96,10 @@ h1, h2{
 
 /* phones */
 @media only screen and (max-width : 480px) {
-  h1{
+  h1, h2{
     font-size: 1.8em;
   }
-  h2{
+  .smaller{
     font-size: 1.25em;
   }
   #action-steps .well{
