@@ -15,25 +15,51 @@ html{
 }
 
 p{
-  font-size: 18px;
+  font-size: 1.2em;
+}
+
+a{
+  color: #5855AC;
+}
+a:hover, a:active{
+  color: #43BDBD;
 }
 
 .brand {
   background: image-url('logo.png') 0 0 no-repeat;
   background-size: 100%;
-  width: 180px;
-  height: 50px;
-  margin: 10px 10px 0 20px;
+  width: 160px;
+  height: 40px;
+  margin: 4px 10px 0 20px;
   text-indent: -999999px;
+}
+
+h1, h2{
+  font-weight: 700;
 }
 
 #navbar {
   background-color: #43BDBD;
+  min-height: 48px;
+}
+
+#navbar a{
+  font-size: 1.2em;
+  padding: 14px 10px 10px 10px;
+}
+
+.navbar-toggle{
+  margin: 8px 8px 8px 0px;
+  padding: 8px 8px 8px 8px;
 }
 
 .align-bottom{
   position: absolute;
   bottom: 40px;
+}
+
+.page-header{
+  margin-top: 20px;
 }
 
 .footer {
@@ -53,15 +79,14 @@ p{
   font-size: 14px;
 }
 
-
 /* home page styling */
 #action-steps .well{
   height: 160px;
 }
 
-/*light teal was #DAEDE5, light blue #B6E3E3, lighter blue azure, greenish #A4DBC2*/
 
 .btn-link{
   padding: 0px;
   border: 0px;
+  outline: none;
 }
