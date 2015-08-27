@@ -7,8 +7,8 @@ EXPUNGE.IO
 
 ###What is this?
 
-This is a web app that helps folks with a juvenile record in Illinois:
- 1. determine if they are eligible to petition for expungement
+This is a website that helps folks with a juvenile record in Illinois:
+ 1. determine if they are likely eligible to expunge their record
  2. get in contact with legal aid to complete the expungement process
 
 The idea for this app came from the awesome Juvenile Justice Council of the Mikva Challenge
@@ -21,6 +21,13 @@ To provide a simple & easily share-able landing page that de-mystifies expungeme
 
 A juvenile record makes it difficult to get a job (among other things). The good news is that juvenile records don't have to be permanent, as they can be expunged. However, while many qualify for expungement, few people actually end up petitioning. This is whack.
 
-###I'm interested in adapting expunge.io to another state. Are you down?
+###Adapting expunge.io to other states!
 
-Yes!!! Please fork. & let's chat: cathyd125 at gmail
+You're 100% welcome to steal code/design/ideas.
+
+Some notes for folks interested in re-deploying:
+- In retrospect, rails is unnecessary. I'd recommend using a static site generator like jekyll for future deployments.
+- Note that most of the work in building this is non-technical - information design rather than coding. Also, make sure you're working with someone at a legal aid organization.
+- Outreach deserves a lot of thought. How are people going to find out about your expungement website in the first place?
+
+I'd be happy to chat further: cathyd125 at gmail
