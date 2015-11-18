@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class='row'>
+  <div class='col-sm-12'>
+    Question
+
+    {{page.question}}
+
+    {{content}}
+
+    {{page.ans1_val}}
+    {{page.ans1_next}}
+
+    {{page.ans2_val}}
+    {{page.ans2_next}}
+
+    {% if page.ans3_val %}
+      {{page.ans3_val}}
+      {{page.ans3_next}}
+    {% endif %}
+
+  </div>
+  
+</div>
