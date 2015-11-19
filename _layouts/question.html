@@ -4,21 +4,30 @@ layout: default
 
 <div class='row'>
   <div class='col-sm-12'>
-    Question
 
-    {{page.question}}
+    <h2>{{page.question}}</h2>
 
     {{content}}
 
-    {{page.ans1_val}}
-    {{page.ans1_next}}
+    <br>
 
-    {{page.ans2_val}}
-    {{page.ans2_next}}
+    <a href="/{{page.ans1_next}}.html" class="btn btn-{% if page.ans1_color %}{{page.ans1_color}}{% else %}success{% endif %}">
+      {{page.ans1_val}}
+    </a>
+
+    <a href="/{{page.ans2_next}}.html" class="btn btn-{% if page.ans2_color %}{{page.ans2_color}}{% else %}success{% endif %}">
+      {{page.ans2_val}}
+    </a>
 
     {% if page.ans3_val %}
-      {{page.ans3_val}}
-      {{page.ans3_next}}
+      <a href="/{{page.ans3_next}}.html" class="btn btn-{% if page.ans3_color %}{{page.ans3_color}}{% else %}success{% endif %}">
+        {{page.ans3_val}}
+      </a>
+    {% endif %}
+
+    {% if page.notsure_option %}
+      <br><br>
+      <a href="/notsure.html" class="btn btn-default">I'm not sure</a>
     {% endif %}
 
   </div>
