@@ -19,12 +19,17 @@ a:hover, a:active{
 .navbar-default {
   background-color: #43BDBD;
   margin-bottom: 0px;
+  min-height: 48px;
 }
 #navbar a{
   font-size: 1.2em;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-header > a.navbar-brand:hover {
   color: #2C3E50;
+}
+
+.nav > li > a {
+  padding: 12px 10px;
 }
 
 .brand {
