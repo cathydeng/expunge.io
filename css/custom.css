@@ -33,7 +33,7 @@ a:hover, a:active{
 }
 
 .brand {
-  background: transparent url("/images/logo.png") no-repeat scroll 0px 0px / 100% auto;
+  background: transparent url("{{ site.baseurl }}/images/logo.png") no-repeat scroll 0px 0px / 100% auto;
   background-size: 100%;
   width: 160px;
   height: 40px;
@@ -50,7 +50,7 @@ a:hover, a:active{
 }
 
 #camille{
-  background: transparent url('/images/camille.jpg') 0 0 no-repeat;
+  background: transparent url('{{ site.baseurl }}/images/camille.jpg') 0 0 no-repeat;
   background-size: 100%;
   width: 160px;
   height: 160px;
