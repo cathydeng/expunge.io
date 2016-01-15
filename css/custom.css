@@ -1,0 +1,72 @@
+/* General */
+p{
+  font-size: 1.2em;
+}
+
+h1, h2{
+  font-weight: 700;
+}
+
+a{
+  color: #5855AC;
+}
+a:hover, a:active{
+  color: #43BDBD;
+}
+
+
+/* nav bar */
+.navbar-default {
+  background-color: #43BDBD;
+  margin-bottom: 0px;
+  min-height: 48px;
+}
+#navbar a{
+  font-size: 1.2em;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-header > a.navbar-brand:hover {
+  color: #2C3E50;
+}
+
+.nav > li > a {
+  padding: 12px 10px;
+}
+
+.brand {
+  background-size: 100%;
+  width: 160px;
+  height: 40px;
+  margin: 4px 10px 0 20px;
+  text-indent: -999999px;
+}
+#logo {
+  margin-left: 5px;
+}
+
+
+/* miscellaneous */
+.btn-link{
+  padding: 0px;
+  border: 0px;
+  outline: none;
+}
+
+#camille{
+  background-size: 100%;
+  width: 160px;
+  height: 160px;
+}
+
+
+
+
+/* phones */
+@media only screen and (max-width : 480px) {
+  h1, h2{
+    font-size: 1.8em;
+  }
+  .smaller{
+    font-size: 1.25em;
+  }
+
+}
