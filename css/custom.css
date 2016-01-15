@@ -33,12 +33,14 @@ a:hover, a:active{
 }
 
 .brand {
-  background: transparent url({{ site.baseurl }}"/images/logo.png") no-repeat scroll 0px 0px / 100% auto;
   background-size: 100%;
   width: 160px;
   height: 40px;
   margin: 4px 10px 0 20px;
   text-indent: -999999px;
+}
+#logo {
+  margin-left: 5px;
 }
 
 
@@ -50,7 +52,6 @@ a:hover, a:active{
 }
 
 #camille{
-  background: transparent url({{ site.baseurl }}'/images/camille.jpg') 0 0 no-repeat;
   background-size: 100%;
   width: 160px;
   height: 160px;
